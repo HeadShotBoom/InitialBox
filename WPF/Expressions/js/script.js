@@ -10,5 +10,5 @@ var quiz5 = 99;
 
 //the average is the sum of the items divide by their total number
 
-var average = quiz1 + quiz2 + quiz3 + quiz4 + quiz5;
+var average = (quiz1 + quiz2 + quiz3 + quiz4 + quiz5)/5;
 console.log(average)
