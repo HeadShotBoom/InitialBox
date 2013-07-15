@@ -26,3 +26,5 @@ var weeksBills = [140, 220, 1254, 23, 130]; //List of grocery bills month at a t
 var total = weeksBills[0]+weeksBills[1]+weeksBills[2]+weeksBills[3]+weeksBills[4]; //Add all bills to single total
 var average = (total/5); //Average bill of 5 months
 console.log("You have spent a total of $"+ total+" on groceries over 5 weeks. That is an average of $"+average+" per week.");//Print Result
+
+//Discounts
