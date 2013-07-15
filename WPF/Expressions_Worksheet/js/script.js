@@ -18,3 +18,4 @@ console.log(result)   //Display the number of slices each guest may eat
 //Slice of Pie Part 2
 
 var sparky =(inclSlice%screamingBaby) //Calculates the remainder left after dividing the 1st variable by the second variable
+console.log (sparky)   //Prints the value to the console log
