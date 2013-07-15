@@ -14,3 +14,5 @@ var screamingBaby = 3 // Number of guests at the party
 
 var result = (inclSlice/screamingBaby) //devide the number of slices evenly among the number of guests
 console.log(result)   //Display the number of slices each guest may eat
+
+//Slice of Pie Part 2
