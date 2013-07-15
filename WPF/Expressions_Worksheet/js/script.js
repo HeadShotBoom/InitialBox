@@ -32,3 +32,6 @@ var origPrice = 1496        // Original Price
 var discount = 99          //Discount Rate (99% Off)
 var item = "Rubber Baby Buggy Bumper" //Embarassing Item name
 var tax = 2         //Money to the Feds
+
+var screwUncleSam = origPrice*(discount *.01)+origPrice  //MAYBE will work
+var payYourDues = screwUncleSam*(tax *.01)+screwUncleSam   //MAYBE will work
