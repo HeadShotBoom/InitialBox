@@ -5,7 +5,7 @@
     <ignored path="Expressions.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/index.html" changelist="4d1fb91f-e758-4950-9360-1a2950bcedb7" time="1373924704811" ignored="false" />
-    <file path="/script.js" changelist="4d1fb91f-e758-4950-9360-1a2950bcedb7" time="1373924740907" ignored="false" />
+    <file path="/script.js" changelist="4d1fb91f-e758-4950-9360-1a2950bcedb7" time="1373924951203" ignored="false" />
     <file path="/styles.css" changelist="4d1fb91f-e758-4950-9360-1a2950bcedb7" time="1373924806649" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -29,7 +29,7 @@
       <file leaf-file-name="script.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/js/script.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="9" selection-start="9" selection-end="9" vertical-scroll-proportion="0.0">
+            <state line="0" column="20" selection-start="20" selection-end="20" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -55,8 +55,8 @@
     <option name="changedFiles">
       <list>
         <option value="$PROJECT_DIR$/index.html" />
-        <option value="$PROJECT_DIR$/js/script.js" />
         <option value="$PROJECT_DIR$/css/styles.css" />
+        <option value="$PROJECT_DIR$/js/script.js" />
       </list>
     </option>
   </component>
@@ -263,7 +263,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/js/script.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="9" selection-start="9" selection-end="9" vertical-scroll-proportion="0.0">
+        <state line="0" column="20" selection-start="20" selection-end="20" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
