@@ -23,3 +23,5 @@ console.log ("Sparky got "+sparky+" slices of pizza.")   //Prints the value to t
 //Average shopping bill
 
 var weeksBills [140, 220, 1254, 23, 130] //List of grocery bills month at a time for the previous 5 months
+var total = weeksBills //Add all bills to single total
+var average = (weeksBills/5) //Average bill of 5 months
