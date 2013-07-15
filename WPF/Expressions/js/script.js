@@ -1,7 +1,5 @@
 // Basic Expressions
 
-//How Old Are You
+//Arithmetic Operations
 
-var yearBorn = 1985;
-var age = 2012 - yearBorn;
-console.log(age);
+// Area of a triangle is half of the width times the height
