@@ -28,11 +28,11 @@ var average = (total/5); //Average bill of 5 months
 console.log("You have spent a total of $"+ total+" on groceries over 5 weeks. That is an average of $"+average+" per week.");//Print Result
 
 //Discounts
-var origPrice = 100        // Original Price
-var discount = 99          //Discount Rate (99% Off)
-var item = "Rubber Baby Buggy Bumper" //Embarassing Item name
-var tax = 2         //Money to the Feds
+var origPrice = 100;        // Original Price
+var discount = 99;          //Discount Rate (99% Off)
+var item = "Rubber Baby Buggy Bumper"; //Embarassing Item name
+var tax = 2;         //Money to the Feds
 
-var noTax = origPrice-(origPrice * discount /100)  //Price with no tax
-var yesTax = noTax+(noTax* tax/100)   //Price with tax
-console.log("Your "+item+" was originally $"+origPrice+", but after a "+discount+"% discount, it is now $"+noTax+" without tax, and $"+yesTax+" with tax.")  //Print Message
+var noTax = origPrice-(origPrice * discount /100);  //Price with no tax
+var yesTax = noTax+(noTax* tax/100);   //Price with tax
+console.log("Your "+item+" was originally $"+origPrice+", but after a "+discount+"% discount, it is now $"+noTax+" without tax, and $"+yesTax+" with tax.");  //Print Message
