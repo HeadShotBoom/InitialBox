@@ -47,6 +47,12 @@ function makeNumbers(A, B, C, D, E){
 }
 makeNumbers(1, 2, 3, 4, 5)
 
+function myNameIs(A, B, C){
+    var name = A + B + C
+    console.log(name);
+}
+myNameIs("Daniel", " Mark", " Carroll")
+
 console.log("----Return Function------");
 
 console.log("------Annonymous Function------");
