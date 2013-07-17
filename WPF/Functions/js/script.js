@@ -78,13 +78,13 @@ console.log("----Return Function------");
 
 console.log("------Annonymous Function------");
 
-var calcArea = function(w,h){
-    var area = w * h;
-    return area;
-}
-
-var a = calcArea(20,30)
-console.log(a);
+//var calcArea = function(w,h){
+//    var area = w * h;
+//    return area;
+//}
+//
+//var a = calcArea(20,30)
+//console.log(a);
 
 //function helloMsg (){
 //    console.log("Hello World");
