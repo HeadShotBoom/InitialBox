@@ -41,19 +41,40 @@ console.log("---Arguements and paremeters---");
 //}
 //calculateArea(20,30)
 
-function makeNumbers(A, B, C, D, E){
-    var num = A * B * C * D * E;
-    console.log(num)
-}
-makeNumbers(1, 2, 3, 4, 5)
-
-function myNameIs(A, B, C){
-    var name = A + B + C
-    console.log(name);
-}
-myNameIs("Daniel", " Mark", " Carroll")
+//function makeNumbers(A, B, C, D, E){
+//    var num = A * B * C * D * E;
+//    console.log(num)
+//}
+//makeNumbers(1, 2, 3, 4, 5)
+//
+//function myNameIs(A, B, C){
+//    var name = A + B + C
+//    console.log(name);
+//}
+//myNameIs("Daniel", " Mark", " Carroll")
 
 console.log("----Return Function------");
+
+//function calArea(w, h){
+//    var area = w * h;
+//    return area;
+//}
+//var total = calArea(20,30);
+//console.log(total);
+//
+//calArea(20,30)
+
+function totalLength(a, b, c, d){
+    var length = a + b + c + d
+    return length
+}
+var z = 1
+var y = 2
+var x = 3
+var w = 4
+var total = totalLength(z, y, x, w,);
+console.log(total)
+
 
 console.log("------Annonymous Function------");
 
