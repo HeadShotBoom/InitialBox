@@ -63,17 +63,17 @@ console.log("----Return Function------");
 //console.log(total);
 //
 //calArea(20,30)
-var z = parseInt(prompt("Enter Left Length for value Z"));
-var y = parseInt(prompt ("Enter Right Length for value Y"));
-var x = parseInt(prompt ("Enter Top Length for value x"));
-var w = parseInt(prompt ("Enter Bottom Length for value W"));
-function totalLength(a, b, c, d){
-    var length = a + b + c + d;
-    return length;
-}
-
-var total = totalLength(z, y, x, w);
-console.log(total);
+//var z = parseInt(prompt("Enter Left Length for value Z"));
+//var y = parseInt(prompt ("Enter Right Length for value Y"));
+//var x = parseInt(prompt ("Enter Top Length for value x"));
+//var w = parseInt(prompt ("Enter Bottom Length for value W"));
+//function totalLength(a, b, c, d){
+//    var length = a + b + c + d;
+//    return length;
+//}
+//
+//var total = totalLength(z, y, x, w);
+//console.log(total);
 
 
 console.log("------Annonymous Function------");
