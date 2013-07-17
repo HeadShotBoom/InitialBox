@@ -35,11 +35,17 @@ console.log("---------Scope-------------");
 
 console.log("---Arguements and paremeters---");
 
-function calculateArea(W, H){
-    var area = W * H;
-    console.log(area);
+//function calculateArea(W, H){
+//    var area = W * H;
+//    console.log(area);
+//}
+//calculateArea(20,30)
+
+function makeNumbers(A, B, C, D, E){
+    var num = A * B * C * D * E;
+    console.log(num)
 }
-calculateArea(20,30)
+makeNumbers(1, 2, 3, 4, 5)
 
 console.log("----Return Function------");
 
