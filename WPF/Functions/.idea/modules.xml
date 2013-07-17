@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/Base Template.iml" filepath="$PROJECT_DIR$/.idea/Base Template.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/Functions.iml" filepath="$PROJECT_DIR$/.idea/Functions.iml" />
     </modules>
   </component>
 </project>

@@ -15,8 +15,15 @@ function twoMessage(){
     console.log("Message 1");
     console.log("Message 2");
 }
-
 twoMessage()
+
+function combineItAll(){
+helloMsg()
+twoMessage()
+}
+
+combineItAll()
+
 console.log("---------Scope-------------");
 
 console.log("---Arguements and paremeters---");
