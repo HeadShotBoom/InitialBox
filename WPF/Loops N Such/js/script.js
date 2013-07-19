@@ -47,14 +47,22 @@
 
 
 
-function stripperName(){
-    var firstName=prompt("What street did you grow up on?");
-    var lastName=prompt("What kind of dog do you have?");
-    var wholeName = (firstName+" "+lastName);
-    var extra = "Your stripper name is "
-    var done = extra+wholeName
-    console.log(done)
+//function stripperName(){
+//    var firstName=prompt("What street did you grow up on?");
+//    var lastName=prompt("What kind of dog do you have?");
+//    var wholeName = (firstName+" "+lastName);
+//    var extra = "Your stripper name is "
+//    var done = extra+wholeName
+//    console.log(done)
+//}
+//stripperName()
+
+function calcAge(){
+    var yearBorn =prompt("What year were you born? Enter value as a 4 digit number. ex. 1985");
+    var currentYear =prompt("What is the current year? Enter value as a 4 digit number. ex. 1985");
+    var thisBirthDay =prompt("Have you already had your birthday this year? Please enter 0 for yes and 1 for no");
+    var age = currentYear-yearBorn-thisBirthDay;
+    console.log(age)
+
 }
-stripperName()
-
-
+                      calcAge()
