@@ -66,7 +66,15 @@ function calcAge(){
     if (age>=21){
     console.log("You are old enough to buy beer");
     }else console.log("NO BEER FOR YOU!!!");
-
+    if (age==15){
+        console.log("You are old enough to get a learners permit.");
+    }else if (age>=16){
+        console.log("You are old enough to get a drivers license.");
+    }else if (age>=14){
+        console.log("You have a few more years before you need to worry about driving a car.");
+    }
+    if (age>=18){
+        console.log("You are old enough to vote.");
+    } else console.log("You arent old enough to vote.");
 }
-
-                      calcAge();
+calcAge();
