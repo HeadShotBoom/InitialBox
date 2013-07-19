@@ -62,7 +62,11 @@ function calcAge(){
     var currentYear =prompt("What is the current year? Enter value as a 4 digit number. ex. 1985");
     var thisBirthDay =prompt("Have you already had your birthday this year? Please enter 0 for yes and 1 for no");
     var age = currentYear-yearBorn-thisBirthDay;
-    console.log(age)
+    console.log(age) ;
+    if (age>=21){
+    console.log("You are old enough to buy beer");
+    }else console.log("NO BEER FOR YOU!!!");
 
 }
-                      calcAge()
+
+                      calcAge();
