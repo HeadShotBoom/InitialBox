@@ -22,12 +22,35 @@
 //    total +=kids[i]
 //}
 //console.log(total)
+//var intSet = [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18]
+//
+//function junction(placeholder){
+//    var total =0;
+//    for(i=0;i<placeholder;i++){
+//    total +=placeholder[i]
+//    }
+//    return (total)
+//}
+//
+//console.log(junction(intSet))
 
-function junction(){
-    var array = [12,14,8,18];
-    var total =0;
-    for(i=0;i<array.length;i++)
-    total +=array[i]
-    console.log(total)
+//var numbers = [1,1,1,1,1,2,3,4,1,5];
+//var letters = [1,1,1,1,1,2,3,4,1,5,1,1,1,1,1,2,3,4,1,5]
+//function addNumbers(numbs){
+//    var total =0
+//    for(i=0;i<numbs.length;i++){
+//        total +=numbs[i]
+//    }
+//    return (total);
+//}
+//console.log(addNumbers(letters));
+
+var names ["Lady ", "Jiggle"];
+
+function stripperName(boob){
+    var wholeName =0 ;
+    for(i=0;i<boob.length;i++){
+        wholeName +=boob[i]
+    }
+    return (wholeName) ;
 }
-junction()
