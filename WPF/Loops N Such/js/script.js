@@ -77,4 +77,23 @@ function calcAge(){
         console.log("You are old enough to vote.");
     } else console.log("You arent old enough to vote.");
 }
-calcAge();
+//calcAge();
+
+
+
+function groceryBills(){
+    var a=parseInt(prompt ("week1"));
+    var b=parseInt(prompt ("week2"));
+    var c=parseInt(prompt ("week3"));
+    var weekBills =[a,b,c];
+    var total = 0;
+    for(i=0;i<weekBills.length;i++){
+        total +=weekBills[i];
+    }
+    var withTax = total*.065+total;
+    var statement = ('Your total grocery bill after tax is $'+withTax+".");
+    if (withTax<=100){
+        console.log(statement+" You didnt even spend a C-Note");
+    }else console.log(statement+" You spent over $100!!!");
+}
+groceryBills();
