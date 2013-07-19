@@ -45,12 +45,16 @@
 //}
 //console.log(addNumbers(letters));
 
-var names ["Lady ", "Jiggle"];
 
-function stripperName(boob){
-    var wholeName =0 ;
-    for(i=0;i<boob.length;i++){
-        wholeName +=boob[i]
-    }
-    return (wholeName) ;
+
+function stripperName(){
+    var firstName=prompt("What street did you grow up on?");
+    var lastName=prompt("What kind of dog do you have?");
+    var wholeName = (firstName+" "+lastName);
+    var extra = "Your stripper name is "
+    var done = extra+wholeName
+    console.log(done)
 }
+stripperName()
+
+
