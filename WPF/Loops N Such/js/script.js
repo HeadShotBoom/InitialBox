@@ -47,14 +47,14 @@
 
 
 
-//function stripperName(){
-//    var firstName=prompt("What street did you grow up on?");
-//    var lastName=prompt("What kind of dog do you have?");
-//    var wholeName = (firstName+" "+lastName);
-//    var extra = "Your stripper name is "
-//    var done = extra+wholeName
-//    console.log(done)
-//}
+function stripperName(){
+    var firstName=prompt("What street did you grow up on?");
+    var lastName=prompt("What kind of dog do you have?");
+    var wholeName = (firstName+" "+lastName);
+    var extra = "Your stripper name is "
+    var done = extra+wholeName
+    return (done)
+}
 //stripperName()
 
 function calcAge(){
@@ -62,23 +62,9 @@ function calcAge(){
     var currentYear =prompt("What is the current year? Enter value as a 4 digit number. ex. 1985");
     var thisBirthDay =prompt("Have you already had your birthday this year? Please enter 0 for yes and 1 for no");
     var age = currentYear-yearBorn-thisBirthDay;
-    console.log(age) ;
-    if (age>=21){
-    console.log("You are old enough to buy beer");
-    }else console.log("NO BEER FOR YOU!!!");
-    if (age==15){
-        console.log("You are old enough to get a learners permit.");
-    }else if (age>=16){
-        console.log("You are old enough to get a drivers license.");
-    }else if (age>=14){
-        console.log("You have a few more years before you need to worry about driving a car.");
-    }
-    if (age>=18){
-        console.log("You are old enough to vote.");
-    } else console.log("You arent old enough to vote.");
-}
-//calcAge();
+    return age;
 
+}
 
 
 function groceryBills(){
@@ -91,10 +77,45 @@ function groceryBills(){
         total +=weekBills[i];
     }
     var withTax = total*.065+total;
-    var statement = ('Your total grocery bill after tax is $'+withTax+".");
-    if (withTax<=100){
-        console.log(statement+" You didnt even spend a C-Note");
-    }else console.log(statement+" You spent over $100!!!");
+    return (withTax)
 }
-//groceryBills();
 
+
+
+/*if (withTax<=100){
+    console.log(statement+" You didnt even spend a C-Note");
+}else console.log(statement+" You spent over $100!!!");
+var statement = ('Your total grocery bill after tax is $'+withTax+".");*/
+
+
+function nightOut(){
+    var money=parseInt(prompt("How much money do you have in the bank?"));
+    var wishes=prompt("Would you like to go out this weekend? (YES or NO)");
+    if (wishes.toUpperCase()=="YES"){
+        alert("Lets see if you can afford it!");
+        var moneyLeft=(money-groceryBills());
+        if (moneyLeft<1){
+            alert("You dont have enough money for Groceries!");
+        }else if(moneyLeft>100){
+            alert("You have enough money, now lets see if your old enough.");
+            var age = calcAge()
+            if (age>=21){
+                console.log("You are old enough to buy beer. No driking and driving.");
+            }else console.log("NO BEER FOR YOU!!!");
+            if (age==15){
+                console.log("You are old enough to get a learners permit.");
+            }else if (age>=16>=20){
+                console.log("You are old enough to drive. But No Drinking!");
+            }else if (age<=14){
+                console.log("You have a few more years before you need to worry about driving a car.");
+            }
+        }else alert("Perhaps you should save your money");{
+    }
+} else alert("LOSER!");
+}
+    nightOut();
+
+
+//if (age>=18){
+//    console.log("You are old enough to vote.");
+//} else console.log("You arent old enough to vote.");
