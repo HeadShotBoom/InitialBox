@@ -82,9 +82,9 @@ function calcAge(){
 
 
 function groceryBills(){
-    var a=parseInt(prompt ("week1"));
-    var b=parseInt(prompt ("week2"));
-    var c=parseInt(prompt ("week3"));
+    var a=parseInt(prompt ("What did you spend on Grocerys in week 1?"));
+    var b=parseInt(prompt ("What did you spend on Grocerys in week 2?"));
+    var c=parseInt(prompt ("What did you spend on Grocerys in week 3?"));
     var weekBills =[a,b,c];
     var total = 0;
     for(i=0;i<weekBills.length;i++){
@@ -96,4 +96,5 @@ function groceryBills(){
         console.log(statement+" You didnt even spend a C-Note");
     }else console.log(statement+" You spent over $100!!!");
 }
-groceryBills();
+//groceryBills();
+
