@@ -90,10 +90,15 @@ var statement = ('Your total grocery bill after tax is $'+withTax+".");*/
 
 function nightOut(){
     var money=parseInt(prompt("How much money do you have in the bank?"));
+//    if (money.charAt(0)=="$"){
+//        var money2 = money.substr(1, money.length-1)
+//    }else {money2=money;}
+  var money2=money;
+
     var wishes=prompt("Would you like to go out this weekend? (YES or NO)");
     if (wishes.toUpperCase()=="YES"){
         alert("Lets see if you can afford it!");
-        var moneyLeft=(money-groceryBills());
+        var moneyLeft=(money2-groceryBills());
         if (moneyLeft<1){
             alert("You dont have enough money for Groceries!");
         }else if(moneyLeft>100){
