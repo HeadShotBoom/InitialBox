@@ -53,7 +53,7 @@ function stripperName(){
     var wholeName = (firstName+" "+lastName);
     var extra = "Your stripper name is "
     var done = extra+wholeName
-    return (done)
+    return (wholeName)
 }
 //stripperName()
 
@@ -89,36 +89,38 @@ var statement = ('Your total grocery bill after tax is $'+withTax+".");*/
 
 
 function nightOut(){
-    var money=parseInt(prompt("How much money do you have in the bank?"));
+    var badName = stripperName()
+    alert("Your pimp name is "+badName)
+    var money=parseInt(prompt(badName+" how much money do you have in the bank?"));
 //    if (money.charAt(0)=="$"){
 //        var money2 = money.substr(1, money.length-1)
 //    }else {money2=money;}
   var money2=money;
 
-    var wishes=prompt("Would you like to go out this weekend? (YES or NO)");
+    var wishes=prompt("Would you like to go out this weekend "+badName+"? (YES or NO)");
     if (wishes.toUpperCase()=="YES"){
         alert("Lets see if you can afford it!");
         var moneyLeft=(money2-groceryBills());
         if (moneyLeft<1){
-            alert("You dont have enough money for Groceries!");
+            alert(badName+" you dont have enough money for Groceries!");
         }else if(moneyLeft>100){
             alert("You have enough money, now lets see if your old enough.");
             var age = calcAge()
             if (age>=21){
-                console.log("You are old enough to buy beer. No driking and driving.");
+                console.log("You are old enough to buy beer. "+badName+" No driking and driving.");
             }else console.log("NO BEER FOR YOU!!!");
             if (age==15){
                 console.log("You are old enough to get a learners permit.");
-            }else if (age>=16>=20){
+            }else if (age>=16 && age<=20){
                 console.log("You are old enough to drive. But No Drinking!");
             }else if (age<=14){
-                console.log("You have a few more years before you need to worry about driving a car.");
+                console.log("You have a few more years before you need to worry about driving a car. "+badName);
             }
         }else alert("Perhaps you should save your money");{
     }
 } else alert("LOSER!");
 }
-    nightOut();
+nightOut();
 
 
 //if (age>=18){
