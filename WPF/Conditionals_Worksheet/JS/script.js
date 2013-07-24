@@ -16,6 +16,16 @@ Data Sets to Test: (Note that data sets are not the only numbers that should wor
 // I will build a system of conditions and functions that is prompt driven to convert temperature.
 function cTOf(C,F){
     var currentTemp =prompt("What is the temperature in degrees Celcius? (Please type only numbers.)");
+
+    //Continue calculations here
+
+
+
+
+
+
+
+    //Continue calculations here
 }
 
 function fTOc
