@@ -4,7 +4,7 @@
     <list default="true" id="9ab8a311-1563-497e-b601-eb101ea5e8e0" name="Default" comment="" />
     <ignored path="ConditionalsActivity.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/script.js" changelist="9ab8a311-1563-497e-b601-eb101ea5e8e0" time="1374700419937" ignored="false" />
+    <file path="/script.js" changelist="9ab8a311-1563-497e-b601-eb101ea5e8e0" time="1374709785211" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,7 +36,7 @@
       <file leaf-file-name="script.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/JS/script.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="40" selection-start="617" selection-end="617" vertical-scroll-proportion="0.3125">
+            <state line="20" column="20" selection-start="970" selection-end="970" vertical-scroll-proportion="0.44642857">
               <folding />
             </state>
           </provider>
@@ -89,7 +89,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -110,6 +109,7 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -123,6 +123,13 @@
       <option name="filePath" />
       <option name="scope" value="ALL" />
       <option name="testName" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugSession" factoryName="Local" singleton="true">
+      <JSDebuggerConfigurationSettings>
+        <option name="engineId" />
+        <option name="fileUrl" />
+      </JSDebuggerConfigurationSettings>
       <method />
     </configuration>
     <list size="0" />
@@ -228,6 +235,20 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/JS/script.js">
       <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="40" selection-start="617" selection-end="617" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JS/script.js">
+      <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
@@ -247,7 +268,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/JS/script.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="40" selection-start="617" selection-end="617" vertical-scroll-proportion="0.3125">
+        <state line="20" column="20" selection-start="970" selection-end="970" vertical-scroll-proportion="0.44642857">
           <folding />
         </state>
       </provider>
