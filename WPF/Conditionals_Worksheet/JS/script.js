@@ -17,11 +17,16 @@ Data Sets to Test: (Note that data sets are not the only numbers that should wor
 function cTOf(){
     var currentTemp =prompt("What is the temperature in degrees Celcius? (Please type only numbers.)");
     var newTemp= (currentTemp*1.8+32);
-    console.log(currentTemp+" degrees Celsius is equal to "+newTemp+" degrees Fahrenheit.")
+    console.log(currentTemp+" degrees Celsius is equal to "+newTemp+" degrees Fahrenheit.");
 }
-cTOf()
+function fTOc(){
+    var currentTemp =prompt("What is the temperature in degrees Fahrenheit? (Please type only numbers.)");
+    var newTemp= (currentTemp-32)*0.5555555;
+    console.log(currentTemp+" degrees Fahrenheit is equal to "+newTemp+" degrees Celsius.");
+}
+
 /*
-function fTOc
+
 
 
 var convertType =prompt("What temp type are you converting TO? F or C (Please press F or C)");
