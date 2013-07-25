@@ -5,8 +5,27 @@
 alert("You will be asked to enter 3 values over the next 3 boxes. I will then do a secret math problem on those numbers. If the answer is positive we will make a line. If it is negative we will make a box.");
 //making a variable that will become loathed when it is used
 var statement = "Its time to waste some time!";
-//keeping with the wacky concept I made this loop.
+//keeping with the wacky concept I made this loop which will call the alert contained within a specific number of times defined in the for statement conditions
 for(var i=0;i<3;i++){
 
     alert(statement);
 }
+//The following 3 items are prompts asking for and storing whole numbers.
+var num1=prompt("Please enter any series of whole numbers you wish. ONLY USE NUMBERS!! This will be repeated 2 more times");
+var num2=pormpt("Please enter any series of whole numbers you wish. ONLY USE NUMBERS!!");
+var num3=prompt("Please enter any series of whole numbers you wish. ONLY USE NUMBERS!!");
+//These are shapes we will use later in this code.
+var side = "_";
+var up = "|";
+var right = "/";
+//this is the place where they are given the option to select the "Secret math problem" that will be used
+
+var which = prompt("Please press either 1 or 2 to select a secret math problem to use.")
+//This conditional checks the variable they entered and chooses a function to envoke based on that information.
+if (which==1){
+    mathProb1();
+}else if (which!=2 && which!=1){
+    alert("You just entered an invalid character and were about to waste some more time.");
+    location.reload();
+}else mathProb2
+
