@@ -25,6 +25,14 @@ function fTOc(){
     console.log(currentTemp+" degrees Fahrenheit is equal to "+newTemp+" degrees Celsius.");
 }
 
+function convertType(){
+    var type =prompt("Would you like to convert TO Fahrenheit or Celsius? (Please enter C or F.)");
+    if (type.toUpperCase()=="C"){
+        fTOc();
+    }else cTOf();
+
+}
+convertType() ;
 /*
 
 
