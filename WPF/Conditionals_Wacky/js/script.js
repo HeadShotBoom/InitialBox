@@ -6,7 +6,7 @@ alert("You will be asked to enter 3 values over the next 3 boxes. I will then do
 //making a variable that will become loathed when it is used
 var statement = "Its time to waste some time!";
 //keeping with the wacky concept I made this loop which will call the alert contained within a specific number of times defined in the for statement conditions
-for(var i=0;i<3;i++){
+for(var i=0;i<20;i++){
 
     alert(statement);
 }
