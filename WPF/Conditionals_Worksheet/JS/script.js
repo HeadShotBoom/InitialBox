@@ -34,3 +34,48 @@ function convertType(){
 }
 convertType() ;
  */
+
+//Grade Letter Calculator
+
+/*A student earns a number grade at the conclusion of a course at Full Sail.  Determine the appropriate letter grade for that number using conditional statements.
+
+    Assume grades are whole numbers that never go below 0 or above 100.
+Use the FullSail Grade scale.
+    There should be only one print out to the console.
+
+    Given:
+Grade (in percent)
+Result To Print Out:
+    “You have a X%, which means you have earned a(n) X in the class!”  */
+
+//I will build a function that contains a prompt to enter a numerical grade. This value will be compared to a series of If and else if statements that will print the appropriate grade
+
+
+
+
+
+
+function gradeMaker(){
+    var grade=prompt("Enter the numerical value you recieved as a grade in this class.");
+
+
+if(grade<=100 && grade>=95){
+    var letterGrade="A+";
+    }else if(grade<=94 && grade>=90){
+    var letterGrade="A";
+}else if(grade>=85 && grade<=89){
+    var letterGrade="B+";
+}else if(grade>=80 && grade<=84){
+    var letterGrade="B";
+}else if(grade>=79 && grade<=76){
+    var letterGrade="C+";
+}else if(grade>=73 && grade<=75){
+    var letterGrade="C";
+}else if(grade>=70 && grade<=72){
+    var letterGrade="D";
+}else if(grade>=0 && grade<=69){
+    var letterGrade="F";}
+    var statement= ("You have a "+grade+"% which means you have earned a(n) "+letterGrade+" in this class!");
+    console.log(statement)
+}
+gradeMaker();
