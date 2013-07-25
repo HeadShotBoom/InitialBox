@@ -52,11 +52,16 @@ if (which==1){
         //This prints a series of spaces and characters in console log to make a shape
         console.log(" "+side);
         console.log(up+side+up);}
+    //This determines if the character entered before is NOT a 1 or a 2 and reloads the entire website
 }else if (which!=2 && which!=1){
+    //this is an alert that informs you about wasted time
     alert("You just entered an invalid character and were about to waste some more time.");
+    //This reloads the browser
     location.reload();
 }else {
+    //this generates a variable based on the result of calling the function
     var twoTotal =mathProb2();
+    //See comments on identical code above to determine function
     if (twoTotal%2==0){
         console.log(" "+side+side);
         console.log(up+"  "+right);
