@@ -11,7 +11,7 @@ Result:
 Data Sets to Test: (Note that data sets are not the only numbers that should work with your code.)
 32F is 0C
 100C is 212F
-90F is 32.22C  */
+90F is 32.22C
 
 // I will build a system of conditions and functions that is prompt driven to convert temperature.
 function cTOf(){
@@ -33,12 +33,4 @@ function convertType(){
 
 }
 convertType() ;
-/*
-
-
-
-var convertType =prompt("What temp type are you converting TO? F or C (Please press F or C)");
-
-if (convertType=="C"){
-    fTOc
-} */
+ */
