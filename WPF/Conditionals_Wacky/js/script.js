@@ -30,7 +30,9 @@ function mathProb1(){
 }
 // this is the second secret math problem
 function mathProb2(){
+    //the following is a variable defined by addition of various variables
     var total2 = num1*num2*num3+num1+num2+num3;
+    //this generates an output of the function
     return total2
 }
 
@@ -38,12 +40,16 @@ function mathProb2(){
 //This conditional checks the variable they entered and chooses a function to envoke based on that information.
 
 if (which==1){
+    //this generates a variable based on the result of calling the function
     var oneTotal = mathProb1();
+    //this condition determines if the result of the math problem is an even number by checking if there is a remainder after dividing by 2
     if (oneTotal%2==0){
+        //This prints a series of spaces and characters in console log to make a shape
         console.log(" "+side+side);
         console.log(up+"  "+right);
         console.log(up+right);
     }else{
+        //This prints a series of spaces and characters in console log to make a shape
         console.log(" "+side);
         console.log(up+side+up);}
 }else if (which!=2 && which!=1){
