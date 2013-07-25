@@ -23,9 +23,12 @@ var right = "/";
 var which = prompt("Please press either 1 or 2 to select a secret math problem to use.")
 //this is the first secret math problem.
 function mathProb1(){
+    //the following is a variable defined by addition of various variables
     var total = num1-num2+num3+num3+num2+num1+num1+num1;
+    //this generates an output of the function
     return total
 }
+// this is the second secret math problem
 function mathProb2(){
     var total2 = num1*num2*num3+num1+num2+num3;
     return total2
