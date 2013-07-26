@@ -39,22 +39,24 @@ makeGrid();
 var Y = 0;
 var X = 0;
 var positionChange=''
-while (positionChange.toUpperCase()!='QUIT'){
-    var positionChange=prompt("Which direction would you like to move? Use N S E or W to Indicate North South East or West... Type QUIT to end the game.");
-if (positionChange.toUpperCase()=='N'&& Y>0){
+var playGame = "ON"
+while (playGame=='ON'){
+    var positionChange=prompt("Which direction would you like to move? Use standard WASD movement keys... Type QUIT to end the game.");
+if (positionChange.toUpperCase()=='W'&& Y>0){
     Y--;
 }else if (positionChange.toUpperCase()=='S'){
     Y++;
-}else if (positionChange.toUpperCase()=='E'){
+}else if (positionChange.toUpperCase()=='D'){
     X++;
-}else if (positionChange.toUpperCase()=='W'){
+}else if (positionChange.toUpperCase()=='A'){
     X--;
-}else {prompt("You have ended the game");}
+}else if (positionChange.toUpperCase()=='QUIT'){
+    playGame="OFF";}
     if (Y==3){Y=0;}
-    if (Y<0){Y=3;}
+    if (Y<0){Y=2;}
     if (X==3){X=0;}
-    if (X<0){X=3;}
+    if (X<0){X=2;}
 var positionNow = world[Y][X];
-
-console.log(positionNow);
+    console.log(positionNow);
 }
+alert("You have ended the game.");

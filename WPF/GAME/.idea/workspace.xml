@@ -5,7 +5,7 @@
     <ignored path="GAME.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/script.js" changelist="511f55ce-528c-4afc-881a-dd383fd4d953" time="1374713733384" ignored="false" />
-    <file path="/adventure.js" changelist="511f55ce-528c-4afc-881a-dd383fd4d953" time="1374865657321" ignored="false" />
+    <file path="/adventure.js" changelist="511f55ce-528c-4afc-881a-dd383fd4d953" time="1374868177325" ignored="false" />
     <file path="/index.html" changelist="511f55ce-528c-4afc-881a-dd383fd4d953" time="1374847190505" ignored="false" />
     <file path="$PROJECT_DIR$/../Conditionals_Worksheet/JS/script.js" changelist="511f55ce-528c-4afc-881a-dd383fd4d953" time="1374713962670" ignored="false" />
     <file path="/creatures.js" changelist="511f55ce-528c-4afc-881a-dd383fd4d953" time="1374863929427" ignored="false" />
@@ -31,7 +31,7 @@
       <file leaf-file-name="adventure.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/js/adventure.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="59" column="26" selection-start="1378" selection-end="1378" vertical-scroll-proportion="0.8660714">
+            <state line="62" column="18" selection-start="1422" selection-end="1422" vertical-scroll-proportion="0.8686131">
               <folding />
             </state>
           </provider>
@@ -334,7 +334,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/js/adventure.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="59" column="26" selection-start="1378" selection-end="1378" vertical-scroll-proportion="0.8660714">
+        <state line="62" column="18" selection-start="1422" selection-end="1422" vertical-scroll-proportion="0.8686131">
           <folding />
         </state>
       </provider>
