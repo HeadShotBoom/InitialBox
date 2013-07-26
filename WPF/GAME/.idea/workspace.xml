@@ -8,7 +8,7 @@
     <file path="/adventure.js" changelist="511f55ce-528c-4afc-881a-dd383fd4d953" time="1374518232904" ignored="false" />
     <file path="/index.html" changelist="511f55ce-528c-4afc-881a-dd383fd4d953" time="1374847190505" ignored="false" />
     <file path="$PROJECT_DIR$/../Conditionals_Worksheet/JS/script.js" changelist="511f55ce-528c-4afc-881a-dd383fd4d953" time="1374713962670" ignored="false" />
-    <file path="/creatures.js" changelist="511f55ce-528c-4afc-881a-dd383fd4d953" time="1374850561699" ignored="false" />
+    <file path="/creatures.js" changelist="511f55ce-528c-4afc-881a-dd383fd4d953" time="1374853991818" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,7 +51,7 @@
       <file leaf-file-name="creatures.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/js/creatures.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="70" column="22" selection-start="1923" selection-end="1923" vertical-scroll-proportion="0.8540146">
+            <state line="92" column="12" selection-start="2547" selection-end="2547" vertical-scroll-proportion="0.93430656">
               <folding />
             </state>
           </provider>
@@ -159,7 +159,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Loops N Such" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Conditionals_Worksheet" />
   </component>
   <component name="RunManager">
     <configuration default="true" type="DartUnitRunConfigurationType" factoryName="DartUnit">
@@ -190,12 +190,12 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="10" y="22" width="1420" height="833" extended-state="0" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24982105" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24982105" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -321,7 +321,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/js/creatures.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="70" column="22" selection-start="1923" selection-end="1923" vertical-scroll-proportion="0.8540146">
+        <state line="92" column="12" selection-start="2547" selection-end="2547" vertical-scroll-proportion="0.93430656">
           <folding />
         </state>
       </provider>

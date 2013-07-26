@@ -36,7 +36,7 @@
       <file leaf-file-name="script.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/JS/script.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="80" column="29" selection-start="2855" selection-end="2855" vertical-scroll-proportion="0.9032738">
+            <state line="80" column="29" selection-start="2855" selection-end="2855" vertical-scroll-proportion="1.1815476">
               <folding />
             </state>
           </provider>
@@ -114,7 +114,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Loops N Such" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="FullScreen" value="false" />
   </component>
   <component name="RunManager">
@@ -250,6 +250,20 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/JS/script.js">
       <provider selected="true" editor-type-id="text-editor">
+        <state line="80" column="29" selection-start="2855" selection-end="2855" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JS/script.js">
+      <provider selected="true" editor-type-id="text-editor">
         <state line="14" column="40" selection-start="617" selection-end="617" vertical-scroll-proportion="0.0">
           <folding />
         </state>
@@ -283,7 +297,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/JS/script.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="80" column="29" selection-start="2855" selection-end="2855" vertical-scroll-proportion="0.9032738">
+        <state line="80" column="29" selection-start="2855" selection-end="2855" vertical-scroll-proportion="1.1815476">
           <folding />
         </state>
       </provider>

@@ -1,6 +1,6 @@
 // This will generate creatures to populate our world.
 
-
+/*
 
 //**************************Remove this when testing is complete
 var arrayWithStatsPass=[];
@@ -33,7 +33,7 @@ if (playerOrMonster=='Monster'){
     var stats=[];
     switch(arrayWithStatsPass[1]){
         case "Swamp":
-            //slimy sneaky slippery snake
+            //Slimy sneaky slippery snake
             stats[0]=0;
             stats[1]=5;
             stats[2]=2;
@@ -79,3 +79,15 @@ console.log(playerCharacter[2]);
 console.log(playerCharacter[3]);
 console.log(playerCharacter[4]);
 console.log(playerCharacter[5]);
+             */
+
+function varyValue(N,M){
+    var points = N;
+    var randomize = Math.floor((Math.random()*100)+1);
+    var posOrNeg = Math.floor((Math.random()*10)+1);
+    if (posOrNeg%2==0){
+        var variance = points*(randomize/100)
+    }else {var variance =points*(randomize/100)*-1}
+    console.log(variance)
+}
+  varyValue();

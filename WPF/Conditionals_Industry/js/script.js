@@ -41,6 +41,12 @@ if (parseInt(jobType)==1){
 //if the jobType value is = 2 the statements below will be analyzed
 } else if (parseInt(jobType)==2){
     var pics =prompt("Does the client need you to produce the pictures of his products? (Enter Y or N)");
+
+    ///THIS WILL CONDENSE THE CODE
+ /* pics=pics.toUpperCase();
+    if(pics=='NO'){pics='N'};   */
+    //THIS WILL CONDENSE THE CODE
+
     var vid =prompt("Does the client need you to shoot the informational video?");
     if (vid.toUpperCase()=="Y"||vid.toUpperCase()=="YES"){
         var talent =prompt("Do you need to provide the actors for the video?(Enter Y or N)");}
