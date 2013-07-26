@@ -38,7 +38,9 @@ makeGrid();
 
 var Y = 0;
 var X = 0;
-var positionChange=prompt("Which direction would you like to move? Use N S E or W to Indicate North South East or West");
+var positionChange=''
+while (positionChange.toUpperCase()!='QUIT'){
+    var positionChange=prompt("Which direction would you like to move? Use N S E or W to Indicate North South East or West... Type QUIT to end the game.");
 if (positionChange.toUpperCase()=='N'&& Y>0){
     Y--;
 }else if (positionChange.toUpperCase()=='S'){
@@ -47,9 +49,12 @@ if (positionChange.toUpperCase()=='N'&& Y>0){
     X++;
 }else if (positionChange.toUpperCase()=='W'){
     X--;
-}else {prompt("You have made a mistake and it has cost you your progress. Press Enter");
-    location.reload();}
-
+}else {prompt("You have ended the game");}
+    if (Y==3){Y=0;}
+    if (Y<0){Y=3;}
+    if (X==3){X=0;}
+    if (X<0){X=3;}
 var positionNow = world[Y][X];
 
 console.log(positionNow);
+}
