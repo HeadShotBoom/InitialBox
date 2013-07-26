@@ -18,3 +18,22 @@ alert("Please select a type of job from the ones described in console log.");
     console.log("   He also needs these graphics made professionally");
 
 var jobType =prompt("Please enter the number associated with your job. (Only enter 1, 2, or 3)");
+
+if (parseInt(jobType)==1){
+    var pics =prompt("Does the client need you to produce the pictures of his products? (Enter Y or N)");
+    var vid =prompt("Does the client need you to shoot the informational video?");
+    var talent =prompt("Do you need to provide the actors for the video?(Enter Y or N)");
+    console.log(pics+vid+talent);
+} else if (parseInt(jobType)==2){
+    var pics =prompt("Does the client need you to produce the pictures of his products? (Enter Y or N)");
+    var vid =prompt("Does the client need you to shoot the informational video?");
+    var talent =prompt("Do you need to provide the actors for the video?(Enter Y or N)");
+    console.log(pics+vid+talent);
+}  else if (parseInt(jobType)==3){
+    var pics =prompt("Does the client need you to produce the pictures of his products? (Enter Y or N)");
+    var vid =prompt("Does the client need you to shoot the informational video?");
+    var talent =prompt("Do you need to provide the actors for the video?(Enter Y or N)");
+    console.log(pics+vid+talent);
+}
+
+
