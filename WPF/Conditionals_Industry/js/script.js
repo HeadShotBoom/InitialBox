@@ -22,18 +22,30 @@ var jobType =prompt("Please enter the number associated with your job. (Only ent
 if (parseInt(jobType)==1){
     var pics =prompt("Does the client need you to produce the pictures of his products? (Enter Y or N)");
     var vid =prompt("Does the client need you to shoot the informational video?");
-    var talent =prompt("Do you need to provide the actors for the video?(Enter Y or N)");
-    console.log(pics+vid+talent);
+    if (vid.toUpperCase()=="Y"||vid.toUpperCase()=="YES"){
+    var talent =prompt("Do you need to provide the actors for the video?(Enter Y or N)");}
+    else {talent="N";}
+    if (((pics.toUpperCase()=="Y"||pics.toUpperCase()=="YES")&&(vid.toUpperCase()=="Y"||vid.toUpperCase()=="YES"))&&(talent.toUpperCase()=="Y"||talent.toUpperCase()=="YES"))){
+    console.log("For this job, you will need the following people. "+perTwo+", "+perSix+", "+perFour+".");
+    }else if (((pics.toUpperCase()=="N"||pics.toUpperCase()=="NO")&&(vid.toUpperCase()=="N"||vid.toUpperCase()=="NO"))&&(talent.toUpperCase()=="N"||talent.toUpperCase()=="NO"))){
+        console.log("For this job you will only need a "+perTwo+".");
+    }else if (((pics.toUpperCase()=="N"||pics.toUpperCase()=="NO")&&(vid.toUpperCase()=="Y"||vid.toUpperCase()=="YES"))&&(talent.toUpperCase()=="N"||talent.toUpperCase()=="NO"))){
+        console.log("For this job you will need a "+perTwo+" and a "+perFour+".");}
+    else if (((pics.toUpperCase()=="Y"||pics.toUpperCase()=="YES")&&(vid.toUpperCase()=="N"||vid.toUpperCase()=="NO"))&&(talent.toUpperCase()=="N"||talent.toUpperCase()=="NO"))){
+        console.log("For this job you will need a"+perTwo+" and a "+perFour+".");}
+
+}else {talent="N"}
 } else if (parseInt(jobType)==2){
     var pics =prompt("Does the client need you to produce the pictures of his products? (Enter Y or N)");
     var vid =prompt("Does the client need you to shoot the informational video?");
-    var talent =prompt("Do you need to provide the actors for the video?(Enter Y or N)");
-    console.log(pics+vid+talent);
+    if (vid.toUpperCase()=="Y"||vid.toUpperCase()=="YES"){
+        var talent =prompt("Do you need to provide the actors for the video?(Enter Y or N)");
+    } else {talent="N"}
+    var logo =prompt("Does the client need original graphics made for the site?");
+    }
 }  else if (parseInt(jobType)==3){
     var pics =prompt("Does the client need you to produce the pictures of his products? (Enter Y or N)");
-    var vid =prompt("Does the client need you to shoot the informational video?");
-    var talent =prompt("Do you need to provide the actors for the video?(Enter Y or N)");
-    console.log(pics+vid+talent);
+
 }
 
 
