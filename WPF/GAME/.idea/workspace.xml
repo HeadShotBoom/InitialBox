@@ -5,10 +5,10 @@
     <ignored path="GAME.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/script.js" changelist="511f55ce-528c-4afc-881a-dd383fd4d953" time="1374713733384" ignored="false" />
-    <file path="/adventure.js" changelist="511f55ce-528c-4afc-881a-dd383fd4d953" time="1374868177325" ignored="false" />
+    <file path="/adventure.js" changelist="511f55ce-528c-4afc-881a-dd383fd4d953" time="1375129688555" ignored="false" />
     <file path="/index.html" changelist="511f55ce-528c-4afc-881a-dd383fd4d953" time="1374847190505" ignored="false" />
     <file path="$PROJECT_DIR$/../Conditionals_Worksheet/JS/script.js" changelist="511f55ce-528c-4afc-881a-dd383fd4d953" time="1374713962670" ignored="false" />
-    <file path="/creatures.js" changelist="511f55ce-528c-4afc-881a-dd383fd4d953" time="1374863929427" ignored="false" />
+    <file path="/creatures.js" changelist="511f55ce-528c-4afc-881a-dd383fd4d953" time="1375119974861" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,8 +31,11 @@
       <file leaf-file-name="adventure.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/js/adventure.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="62" column="18" selection-start="1422" selection-end="1422" vertical-scroll-proportion="0.8686131">
-              <folding />
+            <state line="39" column="5" selection-start="736" selection-end="736" vertical-scroll-proportion="0.3080292">
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+                <marker date="1375129694000" expanded="true" signature="870:1558" placeholder="..." />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -40,7 +43,7 @@
       <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="105" selection-start="251" selection-end="251" vertical-scroll-proportion="-9.375">
+            <state line="15" column="116" selection-start="251" selection-end="251" vertical-scroll-proportion="-9.375">
               <folding />
             </state>
           </provider>
@@ -49,7 +52,7 @@
       <file leaf-file-name="creatures.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/creatures.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="39" column="0" selection-start="1297" selection-end="1297" vertical-scroll-proportion="0.0">
+            <state line="149" column="42" selection-start="4817" selection-end="4817" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -266,13 +269,66 @@
     <option name="FILE_HISTORY_SPLITTER_PROPORTION" value="0.6" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <option name="time" value="1" />
+    </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/js/adventure.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+            <marker date="1375129694000" expanded="true" signature="870:1558" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="20" selection-start="251" selection-end="251" vertical-scroll-proportion="0.0">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/creatures.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="96" column="97" selection-start="3536" selection-end="3536" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/adventure.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+            <marker date="1375129694000" expanded="true" signature="870:1558" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="105" selection-start="251" selection-end="251" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/creatures.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="39" column="0" selection-start="1297" selection-end="1297" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/adventure.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+            <marker date="1375129694000" expanded="true" signature="870:1558" placeholder="..." />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -293,7 +349,10 @@
     <entry file="file://$PROJECT_DIR$/js/adventure.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="43" column="7" selection-start="938" selection-end="938" vertical-scroll-proportion="0.0">
-          <folding />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+            <marker date="1375129694000" expanded="true" signature="870:1558" placeholder="..." />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -307,7 +366,10 @@
     <entry file="file://$PROJECT_DIR$/js/adventure.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="22" column="49" selection-start="486" selection-end="486" vertical-scroll-proportion="0.0">
-          <folding />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+            <marker date="1375129694000" expanded="true" signature="870:1558" placeholder="..." />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -320,22 +382,25 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/js/creatures.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="39" column="0" selection-start="1297" selection-end="1297" vertical-scroll-proportion="0.0">
+        <state line="149" column="42" selection-start="4817" selection-end="4817" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="105" selection-start="251" selection-end="251" vertical-scroll-proportion="-9.375">
+        <state line="15" column="116" selection-start="251" selection-end="251" vertical-scroll-proportion="-9.375">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/js/adventure.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="62" column="18" selection-start="1422" selection-end="1422" vertical-scroll-proportion="0.8686131">
-          <folding />
+        <state line="39" column="5" selection-start="736" selection-end="736" vertical-scroll-proportion="0.3080292">
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+            <marker date="1375129694000" expanded="true" signature="870:1558" placeholder="..." />
+          </folding>
         </state>
       </provider>
     </entry>
