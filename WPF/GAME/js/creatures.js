@@ -1,4 +1,28 @@
 
+
+var intStuff2 =[['Armor','Shield','Sword'],['Diamond','Wood','Steel', 'Glass'],['Elven','Nord','Dwarven','Made In Japan','HMS']];
+
+function makeStuff(intStuff){
+    var itemType =0;
+    var material=1;
+    var racial=2;
+    var lenItem=intStuff[itemType].length;
+    var lenMat=intStuff[material].length;
+    var lenRace=intStuff[racial].length;
+
+    var itemTypeName = Math.floor(Math.random()*lenItem);
+    var materialName= Math.floor(Math.random()*lenMat);
+    var racialComponentName= Math.floor(Math.random()*lenRace);
+
+    var completeName = intStuff[material][materialName]+' '+intStuff[racial][itemTypeName]+' '+intStuff[itemType][racialComponentName];
+    return (completeName);
+}
+
+
+console.log(makeStuff(intStuff2));
+
+/*
+function designCreature(){
 var creatureBaseStatProto = [];
 //player=0, SSS=1, Sexy Toad=2, Death Leach=3, Horse=4,
 creatureBaseStatProto[0]=[0,20,1,.5,.01,0,'Player',[1,1]];
@@ -21,7 +45,8 @@ var title=6;
 var horde=7;
 var hordeMin=0;
 var hordeMax=1;
-
+var booty=8
+}
 
 
 function makeHorde (character){
@@ -146,5 +171,5 @@ if (playerOrMonster=='Monster'){
 var makeIt = makeCreature(arrayWithStatsPass);
 console.log(makeIt);
 
-
+ */
 
