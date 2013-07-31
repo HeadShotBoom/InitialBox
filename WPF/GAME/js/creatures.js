@@ -14,22 +14,21 @@ function makeStuff(intStuff){
     var materialName= Math.floor(Math.random()*lenMat);
     var racialComponentName= Math.floor(Math.random()*lenRace);
 
-    var completeName = intStuff[material][materialName]+' '+intStuff[racial][itemTypeName]+' '+intStuff[itemType][racialComponentName];
+    var completeName = intStuff[racial][racialComponentName]+' '+intStuff[material][materialName]+' '+intStuff[itemType][itemTypeName];
     return (completeName);
 }
 
 
-console.log(makeStuff(intStuff2));
 
-/*
+
 function designCreature(){
 var creatureBaseStatProto = [];
 //player=0, SSS=1, Sexy Toad=2, Death Leach=3, Horse=4,
-creatureBaseStatProto[0]=[0,20,1,.5,.01,0,'Player',[1,1]];
-creatureBaseStatProto[1]=[0,5,2,.2,.2,1,'Slimy Slippery Snake',[1,3]];
-creatureBaseStatProto[2]=[0,2,2,.2,.05,1,'Sexy Toad',[1,5]];
-creatureBaseStatProto[3]=[0,5,.1,.9,.991,1, 'Death Leach',[1,1]];
-creatureBaseStatProto[4]=[50,1000,10,.5,0,1,'Dragon',[1,10]];
+creatureBaseStatProto[0]=[0,varyValue(20,50),1,.5,.01,0,'Player',[1,1],makeStuff(intStuff2)];
+creatureBaseStatProto[1]=[0,varyValue(5,75),2,.2,.2,1,'Slimy Slippery Snake',[1,3],makeStuff(intStuff2)];
+creatureBaseStatProto[2]=[0,varyValue(5,20),2,.2,.05,1,'Sexy Toad',[1,5],makeStuff(intStuff2)];
+creatureBaseStatProto[3]=[0,5,.1,.9,.991,1, 'Death Leach',[1,1],makeStuff(intStuff2)];
+creatureBaseStatProto[4]=[50,varyValue(1000,50),10,.5,0,1,'Dragon',[1,10],makeStuff(intStuff2)];
 var player =0;
 var sss =1;
 var sexyToad=2;
@@ -51,7 +50,7 @@ var booty=8
 
 function makeHorde (character){
     var hordeSize=Math.random()*(creatureBaseStatProto[character][horde][hordeMax]-creatureBaseStatProto[character][horde][hordeMin])+creatureBaseStatProto[character][horde][hordeMin];
-    for(i=hordeSize;i>0;i--);{
+    for (i=hordeSize;i>0;i--);{
     return (hordeSize);
 } }
 
@@ -171,5 +170,4 @@ if (playerOrMonster=='Monster'){
 var makeIt = makeCreature(arrayWithStatsPass);
 console.log(makeIt);
 
- */
 
