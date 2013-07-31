@@ -1,4 +1,11 @@
-
+function varyValue(N,M){
+    var rangeOfvariance = (Math.floor(Math.random()*100)+1)/100;
+    var posOrNeg = Math.floor((Math.random()*10)+1);
+    if (posOrNeg%2==0){
+        var variance = (N*(M/100)*rangeOfvariance)+N;
+    }else { variance = ((N*(M/100)*rangeOfvariance)*-1)+N;}
+    return Math.floor(variance);
+}
 
 var intStuff2 =[['Armor','Shield','Sword'],['Diamond','Wood','Steel', 'Glass'],['Elven','Nord','Dwarven','Made In Japan','HMS']];
 
@@ -18,56 +25,48 @@ function makeStuff(intStuff){
     return (completeName);
 }
 
+function makeHorde (character){
+    var hordeSize=Math.ceil(Math.random()*character);
+        return hordeSize;
+    }
 
 
-
-function designCreature(){
+function designCreature(Q){
 var creatureBaseStatProto = [];
 //player=0, SSS=1, Sexy Toad=2, Death Leach=3, Horse=4,
 creatureBaseStatProto[0]=[0,varyValue(20,50),1,.5,.01,0,'Player',[1,1],makeStuff(intStuff2)];
 creatureBaseStatProto[1]=[0,varyValue(5,75),2,.2,.2,1,'Slimy Slippery Snake',[1,3],makeStuff(intStuff2)];
 creatureBaseStatProto[2]=[0,varyValue(5,20),2,.2,.05,1,'Sexy Toad',[1,5],makeStuff(intStuff2)];
 creatureBaseStatProto[3]=[0,5,.1,.9,.991,1, 'Death Leach',[1,1],makeStuff(intStuff2)];
-creatureBaseStatProto[4]=[50,varyValue(1000,50),10,.5,0,1,'Dragon',[1,10],makeStuff(intStuff2)];
-var player =0;
-var sss =1;
-var sexyToad=2;
-var deathLeach=3;
-var dragon=4;
-var armor=0;
-var health=1;
-var damage=2;
-var startHit=3;
-var startDodge=4;
-var startXp=5;
-var title=6;
-var horde=7;
-var hordeMin=0;
-var hordeMax=1;
-var booty=8
+creatureBaseStatProto[4]=[50,varyValue(1000,50),10,.5,0,1,'Dragon', makeHorde(10),makeStuff(intStuff2)];
+//var player =0;
+//var sss =1;
+//var sexyToad=2;
+//var deathLeach=3;
+//var dragon=4;
+//var armor=0;
+//var health=1;
+//var damage=2;
+//var startHit=3;
+//var startDodge=4;
+//var startXp=5;
+//var title=6;
+//var horde=7;
+//var booty=8
+    return creatureBaseStatProto[Q];
 }
 
 
-function makeHorde (character){
-    var hordeSize=Math.random()*(creatureBaseStatProto[character][horde][hordeMax]-creatureBaseStatProto[character][horde][hordeMin])+creatureBaseStatProto[character][horde][hordeMin];
-    for (i=hordeSize;i>0;i--);{
-    return (hordeSize);
-} }
+
 
 //This function allows me to adjust the starting value of any stat dynamically
 
 
 
-function varyValue(N,M){
-    var rangeOfvariance = (Math.floor(Math.random()*100)+1)/100;
-    var posOrNeg = Math.floor((Math.random()*10)+1);
-    if (posOrNeg%2==0){
-        var variance = (N*(M/100)*rangeOfvariance)+N;
-    }else {var variance = ((N*(M/100)*rangeOfvariance)*-1)+N;}
-    return Math.floor(variance);
-}
+
 //**************************Remove this when testing is complete
 var arrayWithStatsPass=[];
+var arrayWithStatsCrap = arrayWithStatsPass;
 arrayWithStatsPass[0]='Monster';
 arrayWithStatsPass[1]='Plains';
 //**************************Remove this when testing is complete
@@ -144,7 +143,7 @@ if (playerOrMonster=='Monster'){
             var dragonOrHorse =Math.random();
             if (dragonOrHorse<.999){
             //This case will be dragon
-                var monsterNow = makeHorde(dragon);
+                var monsterNow = designCreature(4);
                 break;
             }
             else {
@@ -167,7 +166,5 @@ if (playerOrMonster=='Monster'){
 }return monsterNow;}
 
 
-var makeIt = makeCreature(arrayWithStatsPass);
+var makeIt = makeCreature();
 console.log(makeIt);
-
-
