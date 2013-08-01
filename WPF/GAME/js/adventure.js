@@ -66,14 +66,14 @@ if (positionChange.toUpperCase()=='W'){
     X--;
 }else if (positionChange.toUpperCase()=='QUIT'){
     playGame="OFF";}
-    if (Y==3){Y=0;}
-    if (Y<0){Y=2;}
-    if (X==3){X=0;}
-    if (X<0){X=2;}
+    if (Y==10){Y=0;}
+    if (Y<0){Y=9;}
+    if (X==10){X=0;}
+    if (X<0){X=9;}
 var positionNow = world[0][Y][X];
     var latNow = X;
     var longNow = Y;
-    console.log("You are now at grid position ("+X+") "+Y+"."+world[0][Y][X]);
+    console.log("You are now at grid position ("+X+") ("+Y+").   "+world[0][Y][X]);
 }
 alert("You have ended the game.");
 
