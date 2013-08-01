@@ -34,11 +34,12 @@ function makeHorde (character){
 function designCreature(Q){
 var creatureBaseStatProto = [];
 //player=0, SSS=1, Sexy Toad=2, Death Leach=3, Horse=4,
-creatureBaseStatProto[0]=[0,varyValue(20,50),1,.5,.01,0,'Player',[1,1],makeStuff(intStuff2)];
-creatureBaseStatProto[1]=[0,varyValue(5,75),2,.2,.2,1,'Slimy Slippery Snake',[1,3],makeStuff(intStuff2)];
-creatureBaseStatProto[2]=[0,varyValue(5,20),2,.2,.05,1,'Sexy Toad',[1,5],makeStuff(intStuff2)];
-creatureBaseStatProto[3]=[0,5,.1,.9,.991,1, 'Death Leach',[1,1],makeStuff(intStuff2)];
-creatureBaseStatProto[4]=[50,varyValue(1000,50),10,.5,0,1,'Dragon', makeHorde(10),makeStuff(intStuff2)];
+creatureBaseStatProto[0]=[0,varyValue(20,50),1,.5,.01,0,'Player',1,makeStuff(intStuff2)];
+creatureBaseStatProto[1]=[0,varyValue(5,75),2,.2,.2,1,'Slimy Slippery Snake',makeHorde(3),makeStuff(intStuff2)];
+creatureBaseStatProto[2]=[0,varyValue(5,20),2,.2,.05,1,'Sexy Toad',makeHorde(5),makeStuff(intStuff2)];
+creatureBaseStatProto[3]=[0,5,.1,.9,.991,1, 'Death Leach',1,makeStuff(intStuff2)];
+creatureBaseStatProto[4]=[50,varyValue(1000,50),10,.5,0,1,'Dragon', makeHorde(2),makeStuff(intStuff2)];
+creatureBaseStatProto[5]=[0,varyValue(20,50),10,.5,0,1,'Horse', makeHorde(10),makeStuff(intStuff2)];
 //var player =0;
 //var sss =1;
 //var sexyToad=2;
@@ -95,47 +96,17 @@ if (playerOrMonster=='Monster'){
             var animalTypeSwamp =Math.random();
             if (animalTypeSwamp<.1){
             //Slimy sneaky slippery snake
-            stats[0]=0;//starting armor value =0
-            stats[1]=5;//starting health
-            stats[2]=2;//starting damage
-            stats[3]=.2;//starting %hit
-            stats[4]=.2;//starting %dodge
-            stats[5]=1;//starting experience
-            stats[6]='Slimy sneaky slippery snake';// character name
-            stats[7]="";//Armor
-            stats[8]="";//Weapon
-            stats[9]="";//Treasure
-            stats[10]=3;//horde Size
+                var monsterNow = designCreature(1);
             break;
             }
             else if (animalTypeSwamp>=.1 && animalTypeSwamp<=.9){
             //Frog
-            stats[0]=0;//starting armor value =0
-            stats[1]=2;//starting health
-            stats[2]=2; //starting damage
-            stats[3]=.2;//starting %hit
-            stats[4]=.05;//starting %dodge
-            stats[5]=1;//starting experience
-            stats[6]='Sexy Toad';// character name
-            stats[7]="";//Armor
-            stats[8]="";//Weapon
-            stats[9]="";//Treasure
-            stats[10]=10;//horde Size
+                var monsterNow = designCreature(2);
             break;
             }
             else {
             //Death Leach
-            stats[0]=0;//starting armor value =0
-            stats[1]=5;//starting health
-            stats[2]=.1;//starting damage
-            stats[3]=.9;//starting %hit
-            stats[4]=.991;//starting %dodge
-            stats[5]=1;//starting experience
-            stats[6]='Death Leach'; // character name
-            stats[7]="";//Armor
-            stats[8]="";//Weapon
-            stats[9]="";//Treasure
-            stats[10]=2;//horde Size
+                var monsterNow = designCreature(3);
             break;
             }
 
@@ -148,17 +119,7 @@ if (playerOrMonster=='Monster'){
             }
             else {
             //this case makes a horse
-                stats[0]=0;//starting armor value =0
-                stats[1]=20;//starting health
-                stats[2]=4;  //starting damage
-                stats[3]=.1;//starting %hit
-                stats[4]=.1;//starting %dodge
-                stats[5]=1; //starting experience
-                stats[6]='A left wing horse of a different color';// character name
-                stats[7]="";//Armor
-                stats[8]="";//Weapon
-                stats[9]="";//Treasure
-                stats[10]=4;//horde Size
+                var monsterNow = designCreature(5);
                 break;
             }
     }
