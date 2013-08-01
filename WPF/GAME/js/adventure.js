@@ -71,7 +71,9 @@ if (positionChange.toUpperCase()=='W'){
     if (X==3){X=0;}
     if (X<0){X=2;}
 var positionNow = world[0][Y][X];
-    console.log(positionNow);
+    var latNow = X;
+    var longNow = Y;
+    console.log("You are now at grid position ("+X+") "+Y+"."+world[0][Y][X]);
 }
 alert("You have ended the game.");
 
