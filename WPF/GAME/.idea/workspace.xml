@@ -32,25 +32,25 @@
       <file leaf-file-name="adventure.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/adventure.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="78" column="0" selection-start="1564" selection-end="1564" vertical-scroll-proportion="0.0">
+            <state line="51" column="51" selection-start="867" selection-end="867" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="29" selection-start="251" selection-end="251" vertical-scroll-proportion="-9.375">
+            <state line="15" column="36" selection-start="244" selection-end="244" vertical-scroll-proportion="0.34039333">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="creatures.js" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="creatures.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/creatures.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="109" column="37" selection-start="3570" selection-end="3570" vertical-scroll-proportion="0.49635038">
+            <state line="109" column="37" selection-start="3570" selection-end="3570" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -67,9 +67,9 @@
     <option name="changedFiles">
       <list>
         <option value="$PROJECT_DIR$/js/script.js" />
+        <option value="$PROJECT_DIR$/js/creatures.js" />
         <option value="$PROJECT_DIR$/js/adventure.js" />
         <option value="$PROJECT_DIR$/index.html" />
-        <option value="$PROJECT_DIR$/js/creatures.js" />
       </list>
     </option>
   </component>
@@ -364,23 +364,23 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/js/creatures.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="109" column="37" selection-start="3570" selection-end="3570" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/js/adventure.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="78" column="0" selection-start="1564" selection-end="1564" vertical-scroll-proportion="0.0">
+        <state line="51" column="51" selection-start="867" selection-end="867" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="29" selection-start="251" selection-end="251" vertical-scroll-proportion="-9.375">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/creatures.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="109" column="37" selection-start="3570" selection-end="3570" vertical-scroll-proportion="0.49635038">
+        <state line="15" column="36" selection-start="244" selection-end="244" vertical-scroll-proportion="0.34039333">
           <folding />
         </state>
       </provider>

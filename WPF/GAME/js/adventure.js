@@ -2,7 +2,7 @@
 //Caves = 20%
 //Volcano = 50%
 //Acid = 10%
-/*
+
 var world=[[],[]];
 function landType(){
     var counter = Math.floor(100*Math.random()+1);
@@ -74,6 +74,6 @@ var positionNow = world[0][Y][X];
     console.log(positionNow);
 }
 alert("You have ended the game.");
- */
+
 
 
