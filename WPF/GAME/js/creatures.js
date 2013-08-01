@@ -125,7 +125,3 @@ if (playerOrMonster=='Monster'){
     }
 
 }return monsterNow;}
-
-
-var makeIt = makeCreature();
-console.log(makeIt);
