@@ -39,7 +39,8 @@ function makeGrid(){
         }
     }
 
-
+    world[1][0][0]="Starting Point";
+    world[1][9][9]="Exit";
     world[0][0][0]='START';
     world[0][9][9]='FINISH';
 
