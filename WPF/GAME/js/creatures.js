@@ -125,3 +125,4 @@ if (playerOrMonster=='Monster'){
     }
 
 }return monsterNow;}
+
