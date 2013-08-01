@@ -1,22 +1,8 @@
 makeGrid();
-function fillWithMonsters(){
-    var A=0;
-    var B=0;
-
-    for(h=0;h<10;h++){
-        var creatureThisTime=makeCreature();
-        A++;
-        for(i=0;i<10;i++){
-            world[1][A][B]=creatureThisTime[7];
-            B++;
-        }
-
-    }}
-fillWithMonsters();
-
 
 var Y = 0;
 var X = 0;
+
 var positionChange='';
 var playGame = "ON";
 while (playGame=='ON'){
@@ -39,7 +25,8 @@ while (playGame=='ON'){
     var latNow = X;
     var longNow = Y;
     console.log("You are now at grid position ("+X+") ("+Y+").   "+world[0][Y][X]);
-    console.log(world[1][Y][X]);
+    console.log("You are in the presence of a "+world[1][Y][X][6]);
+
 }
 alert("You have ended the game.");
 

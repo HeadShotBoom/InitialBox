@@ -25,7 +25,7 @@ return (theLand);
 function makeGrid(){
     var counter = Math.floor(100* Math.random());
     var dirtType ='';
-    for(h=0;h<1;h++){
+    for(h=0;h<2;h++){
 
         for(i=0;i<10;i++){
             world[h][i]=[];
@@ -35,15 +35,17 @@ function makeGrid(){
     for(i=0;i<10;i++){
         for(j=0;j<10;j++){
             world[0][i][j]=landType();
-
+            world[1][i][j]=makeCreature();
         }
     }
 
 
     world[0][0][0]='START';
     world[0][9][9]='FINISH';
+
     for(i=0;i<10;i++){
     console.log(world[0][i]);
+
 }
 
 }
