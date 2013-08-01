@@ -49,6 +49,18 @@ function makeGrid(){
 }
 makeGrid();
 
+function fillWithMonsters(){
+    var A=0;
+    var B=0;
+    for(h=0;h<10;h++){
+        A++;
+    for(i=0;i<10;i++){
+    world[1][A][B]=makeCreature();
+        B++;
+    }
+
+}}
+fillWithMonsters();
 
 var Y = 0;
 var X = 0;
@@ -74,6 +86,7 @@ var positionNow = world[0][Y][X];
     var latNow = X;
     var longNow = Y;
     console.log("You are now at grid position ("+X+") ("+Y+").   "+world[0][Y][X]);
+    console.log(world[1][Y][X]);
 }
 alert("You have ended the game.");
 
