@@ -37,7 +37,7 @@ var creatureBaseStatProto = [];
 creatureBaseStatProto[0]=[0,varyValue(20,50),1,.5,.01,0,'Player',1,makeStuff(intStuff2)];
 creatureBaseStatProto[1]=[0,varyValue(5,75),2,.2,.2,1,'Slimy Slippery Snake',makeHorde(3),makeStuff(intStuff2)];
 creatureBaseStatProto[2]=[0,varyValue(5,20),2,.2,.05,1,'Sexy Toad',makeHorde(5),makeStuff(intStuff2)];
-creatureBaseStatProto[3]=[0,5,.1,.9,.991,1, 'Death Leach',1,makeStuff(intStuff2)];
+creatureBaseStatProto[3]=[0,-1000,.1,.9,.991,1, 'Death Leach',1,makeStuff(intStuff2)];
 creatureBaseStatProto[4]=[50,varyValue(1000,50),10,.5,0,1,'Dragon', makeHorde(2),makeStuff(intStuff2)];
 creatureBaseStatProto[5]=[0,varyValue(20,50),10,.5,0,1,'Horse', makeHorde(10),makeStuff(intStuff2)];
 //var player =0;
@@ -112,12 +112,18 @@ if (playerOrMonster=='Monster'){
 
         case "Plains":
             var dragonOrHorse =Math.random();
-            if (dragonOrHorse<.999){
+            if (dragonOrHorse<.35||dragonOrHorse>.6){
             //This case will be dragon
                 var monsterNow = designCreature(4);
                 break;
-            }
-            else {
+            }else if (dragonOrHorse<.4&&dragonOrHorse>=.35){
+                var monsterNow = designCreature(3);
+            }else if (dragonOrHorse<.6&&dragonOrHorse>=.4){
+                var monsterNow = designCreature(2);
+            }else if (dragonOrHorse<.8&&dragonOrHorse>=.6){
+                var monsterNow = designCreature(1);
+
+            }else {
             //this case makes a horse
                 var monsterNow = designCreature(5);
                 break;
