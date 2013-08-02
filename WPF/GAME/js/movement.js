@@ -24,17 +24,15 @@ while (playGame=='ON'){
     if (X<0){X=9;}
     var killIt = prompt("You have encountered a "+world[1][Y][X][6]+".\n Would you like to kill it and absorb its loot?");
     if (killIt.toUpperCase()=='Y'||killIt.toUpperCase()=='YES'){
-        lootBag=lootBag+", "+world[1][Y][X][8];
-        mrMoneyBag=mrMoneyBag+world[1][Y][X][2];
+        mrMoneyBag=mrMoneyBag+world[1][Y][X][1];
     }else{console.log('Whimp!')}
     console.log("You are now at grid position ("+X+") ("+Y+").   "+world[0][Y][X]);
     if(world[0][Y][X]=="START"){
     console.log("Your back at the Start Point");
     }else if (world[1][Y][X]!=="EMPTY") {console.log("You are in the presence of a "+world[1][Y][X][6]);}
-    console.log(world[0][Y][X]);
-    console.log(lootBag);
+    console.log("You are now at "+world[0][Y][X]);
 }
 alert("You have ended the game.");
-
+console.log(mrMoneyBag);
 
 
