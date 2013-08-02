@@ -10,7 +10,7 @@
     <file path="$PROJECT_DIR$/../Conditionals_Worksheet/JS/script.js" changelist="511f55ce-528c-4afc-881a-dd383fd4d953" time="1374713962670" ignored="false" />
     <file path="/creatures.js" changelist="511f55ce-528c-4afc-881a-dd383fd4d953" time="1375391240467" ignored="false" />
     <file path="$PROJECT_DIR$/../Todays Assignment/js/script.js" changelist="511f55ce-528c-4afc-881a-dd383fd4d953" time="1375285862495" ignored="false" />
-    <file path="/movement.js" changelist="511f55ce-528c-4afc-881a-dd383fd4d953" time="1375394584059" ignored="false" />
+    <file path="/movement.js" changelist="511f55ce-528c-4afc-881a-dd383fd4d953" time="1375395166524" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,7 +53,7 @@
       <file leaf-file-name="movement.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/js/movement.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="34" column="64" selection-start="916" selection-end="916" vertical-scroll-proportion="0.74452555">
+            <state line="33" column="58" selection-start="1003" selection-end="1003" vertical-scroll-proportion="0.72262776">
               <folding />
             </state>
           </provider>
@@ -80,9 +80,9 @@
       <list>
         <option value="$PROJECT_DIR$/js/script.js" />
         <option value="$PROJECT_DIR$/js/creatures.js" />
-        <option value="$PROJECT_DIR$/js/movement.js" />
         <option value="$PROJECT_DIR$/js/adventure.js" />
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/js/movement.js" />
       </list>
     </option>
   </component>
@@ -403,7 +403,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/js/movement.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="34" column="64" selection-start="916" selection-end="916" vertical-scroll-proportion="0.74452555">
+        <state line="33" column="58" selection-start="1003" selection-end="1003" vertical-scroll-proportion="0.72262776">
           <folding />
         </state>
       </provider>

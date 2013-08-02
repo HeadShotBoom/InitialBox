@@ -25,8 +25,9 @@ while (playGame=='ON'){
     var latNow = X;
     var longNow = Y;
     console.log("You are now at grid position ("+X+") ("+Y+").   "+world[0][Y][X]);
-    console.log("You are in the presence of a "+world[1][Y][X][6]);
-
+    if(world[1][Y][X]="FILLER"){
+    console.log("Your back at the Start Point");
+    }else {console.log("You are in the presence of a "+world[1][Y][X][6]);}
 }
 alert("You have ended the game.");
 
