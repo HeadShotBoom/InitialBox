@@ -48,8 +48,7 @@ while (playGame=='ON'){
         }else {
             var exitNow=prompt("You have reached the exit and can afford to leave, would you like to exit?");
             if (exitNow.toUpperCase()=="Y"|| exitNow.toUpperCase()=="YES"){
-                mrMoneyBag-1000;
-                alert("You were able to leave the game with $"+mrMoneyBag+" in your pocket!");
+                alert("You were able to leave the game with $"+mrMoneyBag-1000+" in your pocket!");
                 playGame="OFF";
                 console.clear();
             }

@@ -33,7 +33,7 @@
       <file leaf-file-name="adventure.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/adventure.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="43" column="0" selection-start="833" selection-end="833" vertical-scroll-proportion="0.0">
+            <state line="41" column="37" selection-start="803" selection-end="803" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
@@ -53,7 +53,7 @@
       <file leaf-file-name="movement.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/js/movement.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="60" column="0" selection-start="2229" selection-end="2229" vertical-scroll-proportion="0.79514414">
+            <state line="43" column="60" selection-start="1615" selection-end="1615" vertical-scroll-proportion="0.66009104">
               <folding />
             </state>
           </provider>
@@ -62,7 +62,7 @@
       <file leaf-file-name="creatures.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/creatures.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="33" column="36" selection-start="1156" selection-end="1156" vertical-scroll-proportion="0.0">
+            <state line="123" column="49" selection-start="4163" selection-end="4164" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -387,14 +387,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/js/creatures.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="33" column="36" selection-start="1156" selection-end="1156" vertical-scroll-proportion="0.0">
+        <state line="123" column="49" selection-start="4163" selection-end="4164" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/js/adventure.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="43" column="0" selection-start="833" selection-end="833" vertical-scroll-proportion="0.0">
+        <state line="41" column="37" selection-start="803" selection-end="803" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
@@ -403,7 +403,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/js/movement.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="60" column="0" selection-start="2229" selection-end="2229" vertical-scroll-proportion="0.79514414">
+        <state line="43" column="60" selection-start="1615" selection-end="1615" vertical-scroll-proportion="0.66009104">
           <folding />
         </state>
       </provider>
