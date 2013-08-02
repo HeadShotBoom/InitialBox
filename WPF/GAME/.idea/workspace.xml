@@ -10,7 +10,7 @@
     <file path="$PROJECT_DIR$/../Conditionals_Worksheet/JS/script.js" changelist="511f55ce-528c-4afc-881a-dd383fd4d953" time="1374713962670" ignored="false" />
     <file path="/creatures.js" changelist="511f55ce-528c-4afc-881a-dd383fd4d953" time="1375412692990" ignored="false" />
     <file path="$PROJECT_DIR$/../Todays Assignment/js/script.js" changelist="511f55ce-528c-4afc-881a-dd383fd4d953" time="1375285862495" ignored="false" />
-    <file path="/movement.js" changelist="511f55ce-528c-4afc-881a-dd383fd4d953" time="1375413531630" ignored="false" />
+    <file path="/movement.js" changelist="511f55ce-528c-4afc-881a-dd383fd4d953" time="1375416513748" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,7 +33,7 @@
       <file leaf-file-name="adventure.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/adventure.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="21" column="30" selection-start="440" selection-end="440" vertical-scroll-proportion="0.0">
+            <state line="43" column="0" selection-start="833" selection-end="833" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
@@ -53,7 +53,7 @@
       <file leaf-file-name="movement.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/js/movement.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="29" column="46" selection-start="1067" selection-end="1067" vertical-scroll-proportion="0.66009104">
+            <state line="45" column="31" selection-start="1707" selection-end="1707" vertical-scroll-proportion="0.7283763">
               <folding />
             </state>
           </provider>
@@ -80,8 +80,8 @@
       <list>
         <option value="$PROJECT_DIR$/js/script.js" />
         <option value="$PROJECT_DIR$/index.html" />
-        <option value="$PROJECT_DIR$/js/adventure.js" />
         <option value="$PROJECT_DIR$/js/creatures.js" />
+        <option value="$PROJECT_DIR$/js/adventure.js" />
         <option value="$PROJECT_DIR$/js/movement.js" />
       </list>
     </option>
@@ -282,7 +282,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="1" />
+      <option name="time" value="2" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
@@ -385,15 +385,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/adventure.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="30" selection-start="440" selection-end="440" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/js/creatures.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="33" column="36" selection-start="1156" selection-end="1156" vertical-scroll-proportion="0.0">
@@ -401,9 +392,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/js/adventure.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="43" column="0" selection-start="833" selection-end="833" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/js/movement.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="46" selection-start="1067" selection-end="1067" vertical-scroll-proportion="0.66009104">
+        <state line="45" column="31" selection-start="1707" selection-end="1707" vertical-scroll-proportion="0.7283763">
           <folding />
         </state>
       </provider>

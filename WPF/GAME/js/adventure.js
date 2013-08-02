@@ -41,8 +41,7 @@ function makeGrid(){
     world[1][9][9]="Exit";
     world[0][0][0]='START';
     world[0][9][9]='FINISH';
-    for(i=0;i<10;i++){
-        console.log(world[0][i]);}
+
 }
 
 
