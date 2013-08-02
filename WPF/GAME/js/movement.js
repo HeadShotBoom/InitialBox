@@ -23,12 +23,13 @@ while (playGame=='ON'){
         Y=9;
         X=9;
     }
+    if (Y>8&&Y!=9&&X==9){Y=0;}
+    if (Y<0){Y=8;}
+    if (X>8&&X!=9&&Y==9){X=0;}
+    if (X<0){X=8;}
     console.log("You are now at "+world[0][Y][X]+"    Grid ("+Y+")("+X+")");
     console.log("You now have $"+mrMoneyBag+" in your account.");
-    if (Y==10){Y=0;}
-    if (Y<0){Y=9;}
-    if (X==10){X=0;}
-    if (X<0){X=9;}
+
     if (world[0][Y][X]!="START"&&world[0][Y][X]!="FINISH"){
     var killIt = prompt("You have encountered a "+world[1][Y][X][6]+".\n Would you like to kill it and absorb its loot?");
     if (killIt.toUpperCase()=='Y'||killIt.toUpperCase()=='YES'){
@@ -40,7 +41,7 @@ while (playGame=='ON'){
     }else if (world[1][Y][X]!=="EMPTY") {console.log("You just killed a "+world[1][Y][X][6]);}
     }
     else if (X==9 && Y==9){
-        if (mrMoneyBag<10){
+        if (mrMoneyBag<1000){
             alert("You do not have enough money to exit! Back to the START!!!");
             Y=0;
             X=0;
@@ -56,6 +57,8 @@ while (playGame=='ON'){
     } for(i=0;i<10;i++){
         console.log(world[0][i]);}
 }
+console.clear();
+
 alert("You have ended the game.");
 
 

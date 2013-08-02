@@ -10,7 +10,7 @@
     <file path="$PROJECT_DIR$/../Conditionals_Worksheet/JS/script.js" changelist="511f55ce-528c-4afc-881a-dd383fd4d953" time="1374713962670" ignored="false" />
     <file path="/creatures.js" changelist="511f55ce-528c-4afc-881a-dd383fd4d953" time="1375412692990" ignored="false" />
     <file path="$PROJECT_DIR$/../Todays Assignment/js/script.js" changelist="511f55ce-528c-4afc-881a-dd383fd4d953" time="1375285862495" ignored="false" />
-    <file path="/movement.js" changelist="511f55ce-528c-4afc-881a-dd383fd4d953" time="1375416513748" ignored="false" />
+    <file path="/movement.js" changelist="511f55ce-528c-4afc-881a-dd383fd4d953" time="1375417668366" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,7 +53,7 @@
       <file leaf-file-name="movement.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/js/movement.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="45" column="31" selection-start="1707" selection-end="1707" vertical-scroll-proportion="0.7283763">
+            <state line="60" column="0" selection-start="2229" selection-end="2229" vertical-scroll-proportion="0.79514414">
               <folding />
             </state>
           </provider>
@@ -403,7 +403,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/js/movement.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="45" column="31" selection-start="1707" selection-end="1707" vertical-scroll-proportion="0.7283763">
+        <state line="60" column="0" selection-start="2229" selection-end="2229" vertical-scroll-proportion="0.79514414">
           <folding />
         </state>
       </provider>
