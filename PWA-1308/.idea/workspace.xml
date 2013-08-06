@@ -25,19 +25,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/day 1/goal1_basics/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="21" selection-start="220" selection-end="220" vertical-scroll-proportion="0.29500756">
+            <state line="13" column="21" selection-start="220" selection-end="220" vertical-scroll-proportion="-8.125">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main.js" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="main.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/day 1/goal1_basics/js/main.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="5" selection-start="156" selection-end="156" vertical-scroll-proportion="0.0">
+            <state line="19" column="10" selection-start="346" selection-end="346" vertical-scroll-proportion="0.3051095">
               <folding />
             </state>
           </provider>
@@ -53,8 +53,8 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/day 1/goal1_basics/js/main.js" />
         <option value="$PROJECT_DIR$/day 1/goal1_basics/index.html" />
+        <option value="$PROJECT_DIR$/day 1/goal1_basics/js/main.js" />
       </list>
     </option>
   </component>
@@ -267,16 +267,16 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/day 1/goal1_basics/js/main.js">
+    <entry file="file://$PROJECT_DIR$/day 1/goal1_basics/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="5" selection-start="156" selection-end="156" vertical-scroll-proportion="0.0">
+        <state line="13" column="21" selection-start="220" selection-end="220" vertical-scroll-proportion="-8.125">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/day 1/goal1_basics/index.html">
+    <entry file="file://$PROJECT_DIR$/day 1/goal1_basics/js/main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="21" selection-start="220" selection-end="220" vertical-scroll-proportion="0.29500756">
+        <state line="19" column="10" selection-start="346" selection-end="346" vertical-scroll-proportion="0.3051095">
           <folding />
         </state>
       </provider>

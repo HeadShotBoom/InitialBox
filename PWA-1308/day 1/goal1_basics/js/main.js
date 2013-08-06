@@ -8,7 +8,7 @@
 // self-executing function
 
 // Alert Hello World
-  alert("SUP!") ;
+
 /* 
 	Variables
 
