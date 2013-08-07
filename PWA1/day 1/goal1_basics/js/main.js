@@ -48,6 +48,7 @@
     - legal   var $name;
     - legal   var name007;
 */
+/*
 // variables
 console.log('------ variables ----------');
 
@@ -131,7 +132,7 @@ console.log('------ arrays ----------');
      - in javascript, arrays are constructed by the brackets [ and ]
 
  */
-   var myArr = ['bond', 007, function(){}, true];
+ //  var myArr = ['bond', 007, function(){}, true];
 
  /*
     - arrays can hold any value type, separated by comma
@@ -151,8 +152,8 @@ console.log('------ arrays ----------');
     2.  console.log the sum of all the numbers in an array
 
  ********************************************/
-
-
+// var divingScores = [9,8,7,9,6];
+// console.log(divingScores[0]+divingScores[1]+divingScores[2]+divingScores[3]+divingScores[4]);
 
 /*******************************************
 
@@ -168,10 +169,14 @@ console.log('------ arrays ----------');
     3. output array items using string concatenation
 
  ********************************************/
-
+//var myArray = [];
+//myArray[0]="baseball";
+//myArray[1]="football";
+//myArray[2]="basketball";
+//console.log(myArray[0]+" "+myArray[1]+" "+myArray[2]);
 
  // conditionals: (definition, indexing, math, if, if-else, if-else if, ternary)
-console.log('------ conditionals ----------');
+//console.log('------ conditionals ----------');
 
  /*
 
@@ -299,7 +304,12 @@ console.log('------ conditionals ----------');
  GOAL
     1. learn if - else
  ********************************************/
+ var weather = "Cloudy";
 
+if (weather=="Sunny"){
+    bobsMood="Happy"
+}else{bobsMood="Sad"}
+console.log(bobsMood);
 
 
 
@@ -359,7 +369,7 @@ console.log('------ conditionals ----------');
 
 
 // Functions: (definition, whitespace, invocation, arguments, returns)
-console.log('------Functions ----------');
+//console.log('------Functions ----------');
 
 
 /*

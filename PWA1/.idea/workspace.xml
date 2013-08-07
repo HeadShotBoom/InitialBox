@@ -4,7 +4,7 @@
     <list default="true" id="436c06ac-22dc-4c6a-a0a4-6b2a724b31bb" name="Default" comment="" />
     <ignored path="PWA-1308.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/main.js" changelist="436c06ac-22dc-4c6a-a0a4-6b2a724b31bb" time="1375826180090" ignored="false" />
+    <file path="/main.js" changelist="436c06ac-22dc-4c6a-a0a4-6b2a724b31bb" time="1375832667711" ignored="false" />
     <file path="/index.html" changelist="436c06ac-22dc-4c6a-a0a4-6b2a724b31bb" time="1375826208945" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -28,7 +28,7 @@
       <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/day 1/goal1_basics/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="21" selection-start="220" selection-end="220" vertical-scroll-proportion="-8.125">
+            <state line="13" column="21" selection-start="220" selection-end="220" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -37,8 +37,15 @@
       <file leaf-file-name="main.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/day 1/goal1_basics/js/main.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="19" column="10" selection-start="346" selection-end="346" vertical-scroll-proportion="0.3051095">
-              <folding />
+            <state line="311" column="22" selection-start="7691" selection-end="7691" vertical-scroll-proportion="0.5065693">
+              <folding>
+                <element signature="e#152#1132#0" expanded="false" />
+                <element signature="e#1133#2991#0" expanded="false" />
+                <element signature="e#3046#3225#0" expanded="false" />
+                <element signature="e#3267#3497#0" expanded="false" />
+                <element signature="e#3631#4062#0" expanded="false" />
+                <element signature="e#4063#4082#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -90,6 +97,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -150,12 +158,12 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../WPF/Base Template" />
+    <property name="FullScreen" value="false" />
   </component>
   <component name="RunManager">
     <configuration default="true" type="DartUnitRunConfigurationType" factoryName="DartUnit">
@@ -168,7 +176,7 @@
     </configuration>
     <configuration default="true" type="JavascriptDebugSession" factoryName="Local" singleton="true">
       <JSDebuggerConfigurationSettings>
-        <option name="engineId" />
+        <option name="engineId" value="embedded" />
         <option name="fileUrl" />
       </JSDebuggerConfigurationSettings>
       <method />
@@ -188,22 +196,22 @@
     <frame x="10" y="22" width="1420" height="833" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24982105" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -269,15 +277,43 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/day 1/goal1_basics/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="21" selection-start="220" selection-end="220" vertical-scroll-proportion="-8.125">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/day 1/goal1_basics/js/main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="10" selection-start="346" selection-end="346" vertical-scroll-proportion="0.3051095">
+        <state line="19" column="10" selection-start="346" selection-end="346" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="e#152#1132#0" expanded="false" />
+            <element signature="e#1133#2991#0" expanded="false" />
+            <element signature="e#3046#3225#0" expanded="false" />
+            <element signature="e#3267#3497#0" expanded="false" />
+            <element signature="e#3631#4062#0" expanded="false" />
+            <element signature="e#4063#4082#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day 1/goal1_basics/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="21" selection-start="220" selection-end="220" vertical-scroll-proportion="0.0">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day 1/goal1_basics/js/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="311" column="22" selection-start="7691" selection-end="7691" vertical-scroll-proportion="0.5065693">
+          <folding>
+            <element signature="e#152#1132#0" expanded="false" />
+            <element signature="e#1133#2991#0" expanded="false" />
+            <element signature="e#3046#3225#0" expanded="false" />
+            <element signature="e#3267#3497#0" expanded="false" />
+            <element signature="e#3631#4062#0" expanded="false" />
+            <element signature="e#4063#4082#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
