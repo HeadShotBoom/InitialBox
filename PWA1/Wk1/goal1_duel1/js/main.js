@@ -23,8 +23,9 @@ for (i=0;i<10;i++){
     var player2ActualDamage = Math.floor(Math.random()*(playerTwoDamage-minimumDamageP2)+minimumDamageP2);
 
     //inflict damage
-    playerOneHealth=playerOneHealth+player1ActualDamage;
+    playerOneHealth=playerOneHealth-player1ActualDamage;
     playerTwoHealth=playerTwoHealth-player2ActualDamage;
+    if (playerOneHealth<50){playerOneHealth=playerOneHealth+50}
 
     console.log(playerOneName+": "+playerOneHealth + " " + playerTwoName+":"+playerTwoHealth);
 
