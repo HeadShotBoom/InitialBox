@@ -344,8 +344,22 @@
 	};	
 
 */
-
-console.log('------ MORE Conditionals - Switch ----------');
+//
+//var fruit ="apples";
+//
+//switch(fruit){
+//    case "oranges":
+//        console.log("oranges");
+//        break
+//    case "apples":
+//        console.log("apples");
+//        break
+//    case "acorn":
+//        console.log("apples");
+//        break}
+//
+//
+//console.log('------ MORE Conditionals - Switch ----------');
 
 /*******************************************
  STUDENT ACTIVITY 6:
@@ -356,7 +370,19 @@ console.log('------ MORE Conditionals - Switch ----------');
 			if age 18 then console.log "adult"
 			if no age then console.log "No answer"
 ********************************************/
-
+//var age = 12;
+//
+//switch(age){
+//    case 13:
+//        console.log("child");
+//        break
+//    case 18:
+//        console.log("adult");
+//        break
+//    default:
+//        console.log("Not 18 or 13");
+//        break
+//}
 
 
 /*
@@ -370,7 +396,7 @@ console.log('------ MORE Conditionals - Switch ----------');
 
 */
 
-console.log('------ MORE Functions ----------');
+//console.log('------ MORE Functions ----------');
 
 
 	/* 
