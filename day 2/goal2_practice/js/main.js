@@ -6,7 +6,7 @@
  */
 
 // scope wrapper (self executing function)
-(function(){
+//(function(){
 	
 /* 
 	===============================================
@@ -36,7 +36,7 @@
 	syntax, comma separated, undefined declarations
 */
 
-console.log('------Recap Variables ----------');
+//console.log('------Recap Variables ----------');
 
 
 
@@ -62,7 +62,7 @@ console.log('------Recap Variables ----------');
         Best Practice:  Use identity operator 99% of the time
 */	
 
-console.log('------Recap Conditionals ----------');
+//console.log('------Recap Conditionals ----------');
 
 
 	/* 	==============================================================
@@ -123,7 +123,7 @@ console.log('------Recap Conditionals ----------');
 	syntax, arguments, returns, variable scope
 */
 
-console.log('------Recap Functions ----------');
+//console.log('------Recap Functions ----------');
 
     //	1.  BASIC FUNCTION:
 
@@ -151,11 +151,11 @@ console.log('------Recap Functions ----------');
 	-----------------------------------------------
 */
 
-console.log('------ MORE Strings ----------');
-
-var str1 = 'I love JavaScript! ';
-var str2 = 'JavaScript loves me!';
-var abc = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz";
+//console.log('------ MORE Strings ----------');
+//
+//var str1 = 'I love JavaScript! ';
+//var str2 = 'JavaScript loves me!';
+//var abc = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz";
 
 // Use charAt() to console.log the 'v' in str1.
 
@@ -197,13 +197,14 @@ var abc = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz";
 	-----------------------------------------------
 */
 
-console.log('------ MORE Numbers ----------');
-
-// Use toExponential() console.log num in exponential notation with two decimals.
-
-
-// Use toPrecision() console.log dec as four numbers.
-
+//console.log('------ MORE Numbers ----------');
+//var num =456789;
+//var dec =33.123456;
+//// Use toExponential() console.log num in exponential notation with two decimals.
+//console.log(num.toExponential(2));
+//
+//// Use toPrecision() console.log dec as four numbers.
+//console.log(dec.toPrecision(6));
 
 //STUDENT ACTIVITY 4:
 //What method would you use to console.log the variable dec with two decimals.
@@ -231,9 +232,13 @@ console.log('------ MORE Numbers ----------');
 	So the following conditional fails...
 	-----------------------------------------------
 */
-
-console.log('------ MORE Booleans ----------');
-
+//
+//console.log('------ MORE Booleans ----------');
+//var x = 9 * "k";
+//console.log(x);
+//
+//if(x){
+//    console.log("its true, the value is ")
 
 	
 /*
@@ -251,16 +256,17 @@ var arr3 = ['apple', 'orange', 50393, 7.324];
 // indexOf()
 //Returns the first (least) index of an element within the array equal
 //to the specified value, or -1 if none is found.
-
+//console.log(arr2.indexOf("c"));
 
 // join()
 // Joins all elements of an array into a string.
-
+ //  console.log(arr2.join("."));
 
 // pop()
 // Removes the last element from an array and returns that element
 // shift() removes the first element from an array.
-
+//var element = arr1.shift();
+//console.log(element);
 
 // push()
 // Adds one or more elements to the end of an array and returns the new
@@ -529,4 +535,3 @@ console.log('------For Loop ----------');
 
 
 
-})();
