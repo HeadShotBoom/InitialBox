@@ -247,11 +247,11 @@
 	-----------------------------------------------
 */
 
-console.log('------ MORE Arrays ----------');
-
-var arr1 = [1, 2, 3, 4, 5, 6, 7];
-var arr2 = ['a', 'b', 'c', 'd', 'e'];
-var arr3 = ['apple', 'orange', 50393, 7.324];
+//console.log('------ MORE Arrays ----------');
+//
+//var arr1 = [1, 2, 3, 4, 5, 6, 7];
+//var arr2 = ['a', 'b', 'c', 'd', 'e'];
+//var arr3 = ['apple', 'orange', 50393, 7.324];
 
 // indexOf()
 //Returns the first (least) index of an element within the array equal
@@ -304,12 +304,14 @@ var arr3 = ['apple', 'orange', 50393, 7.324];
         and console.log the results
  ********************************************/
 
-    var firstQtr = ["Jan", "Feb", "Mar"];
-    var secondQtr = ["Apr", "May", "Jun"];
-    var secondHalfYr = ["Jul", "Aug", "Sept", "Oct", "Nov", "Dec"];
-    var combined;
-
-
+//    var firstQtr = ["Jan", "Feb", "Mar"];
+//    var secondQtr = ["Apr", "May", "Jun"];
+//    var secondHalfYr = ["Jul", "Aug", "Sept", "Oct", "Nov", "Dec"];
+//    var combined;
+//    combined = [firstQtr]+ [secondQtr];
+//console.log(combined);
+//combined = combined+secondHalfYr;
+//console.log(combined.join(","));
 /*
 	===============================================
 	MORE:  Operators (typeof())
@@ -318,7 +320,7 @@ var arr3 = ['apple', 'orange', 50393, 7.324];
 	How to test for a variable's existence (typeof)	
 */
 
-console.log('------ MORE Operators - typeof() ----------');
+//console.log('------ MORE Operators - typeof() ----------');
 
 
 /*

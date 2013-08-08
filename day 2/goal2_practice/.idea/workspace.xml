@@ -4,7 +4,7 @@
     <list default="true" id="523c336a-970a-4871-b2c5-2f014590159d" name="Default" comment="" />
     <ignored path="goal2_practice.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/main.js" changelist="523c336a-970a-4871-b2c5-2f014590159d" time="1376001354956" ignored="false" />
+    <file path="/main.js" changelist="523c336a-970a-4871-b2c5-2f014590159d" time="1376002163831" ignored="false" />
     <file path="/index.html" changelist="523c336a-970a-4871-b2c5-2f014590159d" time="1376000824168" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -28,7 +28,7 @@
       <file leaf-file-name="main.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/js/main.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="274" column="0" selection-start="6424" selection-end="6424" vertical-scroll-proportion="0.93303573">
+            <state line="322" column="2" selection-start="7878" selection-end="7878" vertical-scroll-proportion="0.64285713">
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
@@ -252,7 +252,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/js/main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="274" column="0" selection-start="6424" selection-end="6424" vertical-scroll-proportion="0.93303573">
+        <state line="322" column="2" selection-start="7878" selection-end="7878" vertical-scroll-proportion="0.64285713">
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
