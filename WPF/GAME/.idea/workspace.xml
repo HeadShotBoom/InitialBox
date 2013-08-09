@@ -12,6 +12,8 @@
     <file path="$PROJECT_DIR$/../Todays Assignment/js/script.js" changelist="511f55ce-528c-4afc-881a-dd383fd4d953" time="1375285862495" ignored="false" />
     <file path="/movement.js" changelist="511f55ce-528c-4afc-881a-dd383fd4d953" time="1375417668366" ignored="false" />
     <file path="$PROJECT_DIR$/../../PWA1/Wk1/goal1_duel1/index.html" changelist="511f55ce-528c-4afc-881a-dd383fd4d953" time="1375841962259" ignored="false" />
+    <file path="$PROJECT_DIR$/../../PWA1/Wk1/goal2_assign_jspractice/js/main.js" changelist="511f55ce-528c-4afc-881a-dd383fd4d953" time="1376019163851" ignored="false" />
+    <file path="/main.js" changelist="511f55ce-528c-4afc-881a-dd383fd4d953" time="1376019143491" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,10 +33,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="19" selection-start="267" selection-end="267" vertical-scroll-proportion="0.31770045">
+            <state line="14" column="19" selection-start="267" selection-end="267" vertical-scroll-proportion="-8.75">
               <folding />
             </state>
           </provider>
@@ -58,10 +60,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="creatures.js" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="creatures.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/js/creatures.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="46" column="53" selection-start="1930" selection-end="1930" vertical-scroll-proportion="0.0">
+            <state line="46" column="53" selection-start="1930" selection-end="1930" vertical-scroll-proportion="1.0072993">
               <folding />
             </state>
           </provider>
@@ -369,16 +371,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/adventure.js">
+    <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="13" selection-start="441" selection-end="441" vertical-scroll-proportion="0.0">
+        <state line="14" column="19" selection-start="267" selection-end="267" vertical-scroll-proportion="-8.75">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/creatures.js">
+    <entry file="file://$PROJECT_DIR$/js/adventure.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="46" column="53" selection-start="1930" selection-end="1930" vertical-scroll-proportion="0.0">
+        <state line="22" column="13" selection-start="441" selection-end="441" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -390,9 +392,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
+    <entry file="file://$PROJECT_DIR$/js/creatures.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="19" selection-start="267" selection-end="267" vertical-scroll-proportion="0.31770045">
+        <state line="46" column="53" selection-start="1930" selection-end="1930" vertical-scroll-proportion="1.0072993">
           <folding />
         </state>
       </provider>
