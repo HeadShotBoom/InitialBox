@@ -1,12 +1,10 @@
 // Script
 
 //Define player variables IAW FSO directions.
-var playerOneName = "Scott";
-var playerOneHealth = 100;
-var playerOneDamage = 50;
-var playerTwoName = "Vid";
-var playerTwoHealth = 100;
-var playerTwoDamage = 50;
+var playerOne = ["Scott", 100, 50];
+
+var playerTwo = ["Vid", 100, 50];
+
 //store round number in a variable
 var round = 0;
 
@@ -14,20 +12,20 @@ var round = 0;
 //Create function that interacts with player health, simulating combat.
 function fight(){
     console.log("FIGHT!");
-alert(playerOneName+":"+playerOneHealth+"  *START*  "+playerTwoName+":"+playerTwoHealth);
+alert(playerOne[0]+":"+playerOne[1]+"  *START*  "+playerTwo[0]+":"+playerTwo[1]);
 for (i=0;i<10;i++){
     //calculate amount of damage each player will inflict.
-    var minimumDamageP1 = playerOneDamage * .5;
-    var minimumDamageP2 = playerTwoDamage * .5;
-    var player1ActualDamage = Math.floor(Math.random()*(playerOneDamage-minimumDamageP1)+minimumDamageP1);
-    var player2ActualDamage = Math.floor(Math.random()*(playerTwoDamage-minimumDamageP2)+minimumDamageP2);
+    var minimumDamageP1 = playerOne[2] * .5;
+    var minimumDamageP2 = playerTwo[2] * .5;
+    var player1ActualDamage = Math.floor(Math.random()*(playerOne[2]-minimumDamageP1)+minimumDamageP1);
+    var player2ActualDamage = Math.floor(Math.random()*(playerTwo[2]-minimumDamageP2)+minimumDamageP2);
 
     //inflict damage
-    playerOneHealth=playerOneHealth-player1ActualDamage;
-    playerTwoHealth=playerTwoHealth-player2ActualDamage;
-    if (playerOneHealth<50){playerOneHealth=playerOneHealth+50}
+    playerOne[1]=playerOne[1]-player1ActualDamage;
+    playerTwo[1]=playerTwo[1]-player2ActualDamage;
+    if (playerOne[1]<50){playerOne[1]=playerOne[1]+50}
 
-    console.log(playerOneName+": "+playerOneHealth + " " + playerTwoName+":"+playerTwoHealth);
+    console.log(playerOne[0]+": "+playerOne[1] + " " + playerTwo[0]+":"+playerTwo[1]);
 
     //check for victor
     var result = winnerCheck();
@@ -35,7 +33,7 @@ for (i=0;i<10;i++){
     if (result=="no winner")
     {
         round++;
-        alert(playerOneName+":"+playerOneHealth+"  *ROUND "+round+" OVER"+"*  "+playerTwoName+":"+playerTwoHealth);
+        alert(playerOne[0]+":"+playerOne[1]+"  *ROUND "+round+" OVER"+"*  "+playerTwo[0]+":"+playerTwo[1]);
 
     } else{
         alert(result);
@@ -48,14 +46,14 @@ for (i=0;i<10;i++){
 
 function winnerCheck(){
     var result="no winner";
-    if (playerOneHealth<1 && playerTwoHealth<1)
+    if (playerOne[1]<1 && playerTwo[1]<1)
     {
         result = "You Both Die";
-    } else if(playerOneHealth<1){
-        result =playerTwoName+" WINS!!!"
-    } else if (playerTwoHealth<1)
+    } else if(playerOne[1]<1){
+        result =playerTwo[0]+" WINS!!!"
+    } else if (playerTwo[1]<1)
     {
-        result = playerOneName+" WINS!!!"
+        result = playerOne[0]+" WINS!!!"
     }
     return result;
 }
