@@ -30,7 +30,10 @@ console.log('------ Recap from the previous lecture ----------');
 
 // Array - For Loop
     var students1 = ['Bob','Christine','Sally','Jim'];
-
+    console.log("Length ", students1.length);
+    for(i=0;i<students1.length;i++){
+        console.log(students1[i]);
+    }
 
 
 
