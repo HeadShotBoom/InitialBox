@@ -293,32 +293,68 @@ console.log("---------- Scope & Context ----------------");
 
 
 
-    /*
-    Definition:  Closure:
-          1.  a snapshot of the functions outer environment at the time the closure is
-              created
-          2.  a closure is created at the moment when you assign a function
-              reference and a copy of it's environment into memory by putting
-              it inside of a variable, like we have done with the "fullName" variable
 
-              -  so we have taken a snap shot of the function "closureFN"
-              -  as well as any data ("firstName", "lastName", and "name") that was
-                  available to it at the time we was created our closure or "snapshot"
-                  "var fullName = nameFN(fname);"  including any fn parameters
+//    Definition:  Closure:
+//    Closure is a self invoking function that returns another function and retains a private variable state.
+//
+//          1.  a snapshot of the functions outer environment at the time the closure is
+//              created
+//          2.  a closure is created at the moment when you assign a function
+//              reference and a copy of it's environment into memory by putting
+//              it inside of a variable, like we have done with the "fullName" variable
+//
+//              -  so we have taken a snap shot of the function "closureFN"
+//              -  as well as any data ("firstName", "lastName", and "name") that was
+//                  available to it at the time we was created our closure or "snapshot"
+//                  "var fullName = nameFN(fname);"  including any fn parameters
+//
+//         3.  so closure is a special type of object that combines a function and
+//              "the environment" in which that function was created.
+//
+//              - "the environment" consist of any fn input parameters that are passed
+//                  to the "closureFN" function and variables at the time the closure
+//                  was created (the 3 variables inside of nameFN.
+//
+//          4.  another way to look at this is that you are binding some information
+//                 to a variable so you can use it later " fullName();" , in your application
+//
+//          5.  NOTE:  a function doesn't have to return something in order to be
+//                  called a closure.  Simply accessing variables outside of its
+//                  immediate lexical scope creates a closure.
+//
 
-         3.  so closure is a special type of object that combines a function and
-              "the environment" in which that function was created.
+                  var counter = 0;
+                  var element = document.getElementById('button');
 
-              - "the environment" consist of any fn input parameters that are passed
-                  to the "closureFN" function and variables at the time the closure
-                  was created (the 3 variables inside of nameFN.
+    element.onclick = function(){
+        //incriment outside counter
+        counter++;
 
-          4.  another way to look at this is that you are binding some information
-                 to a variable so you can use it later " fullName();" , in your application
+        if(counter===3){
+            //do something every third time
+            alert('Thirt times a charm');
+            //reset counter
+            counter = 0;
+        }
+    };
 
-          5.  NOTE:  a function doesn't have to return something in order to be
-                  called a closure.  Simply accessing variables outside of its
-                  immediate lexical scope creates a closure.
-    */
+    var element = document.getElementById('button');
+    element.onclick=(function(){
+        //init the count to 0
+        var count = 0;
+
+        return function(e){
+            //count
+            count++;
+
+            if (count===3){
+                //do something every third time
+                alert('Third times a charm');
+                //reset counter
+                count=0;
+            }
+        }
+    })();
+
 
 })(); // end wrapper
