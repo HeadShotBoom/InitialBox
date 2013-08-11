@@ -4,8 +4,10 @@
     <list default="true" id="b45847fe-968b-419e-a8c4-755aaafd2ce1" name="Default" comment="" />
     <ignored path="goal3_bug_scope.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="$USER_HOME$/Desktop/goal3_debug/js/search.js" changelist="b45847fe-968b-419e-a8c4-755aaafd2ce1" time="1376185739907" ignored="false" />
-    <file path="/search.js" changelist="b45847fe-968b-419e-a8c4-755aaafd2ce1" time="1376185705332" ignored="false" />
+    <file path="$USER_HOME$/Desktop/goal3_debug/js/search.js" changelist="b45847fe-968b-419e-a8c4-755aaafd2ce1" time="1376192060634" ignored="false" />
+    <file path="/search.js" changelist="b45847fe-968b-419e-a8c4-755aaafd2ce1" time="1376191240626" ignored="false" />
+    <file path="$USER_HOME$/Desktop/goal3_debug 2/js/search.js" changelist="b45847fe-968b-419e-a8c4-755aaafd2ce1" time="1376190680498" ignored="false" />
+    <file path="$USER_HOME$/Desktop/goal3_debug 3/js/search.js" changelist="b45847fe-968b-419e-a8c4-755aaafd2ce1" time="1376191707664" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,7 +30,7 @@
       <file leaf-file-name="main.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/js/main.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-2.109489">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.06569343">
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
@@ -114,7 +116,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/goal3_debug" />
   </component>
   <component name="RunManager">
     <list size="0" />
@@ -213,7 +215,7 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/js/main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-2.109489">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.06569343">
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
