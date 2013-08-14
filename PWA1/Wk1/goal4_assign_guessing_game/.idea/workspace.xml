@@ -4,7 +4,7 @@
     <list default="true" id="28985610-e7b0-4885-9a8a-0975abf43e31" name="Default" comment="" />
     <ignored path="goal4_assign_guessing_game.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/main.js" changelist="28985610-e7b0-4885-9a8a-0975abf43e31" time="1376453910030" ignored="false" />
+    <file path="/main.js" changelist="28985610-e7b0-4885-9a8a-0975abf43e31" time="1376459077817" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,7 +36,7 @@
       <file leaf-file-name="main.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/js/main.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="23" column="78" selection-start="527" selection-end="527" vertical-scroll-proportion="0.50364965">
+            <state line="54" column="22" selection-start="1532" selection-end="1532" vertical-scroll-proportion="0.93430656">
               <folding />
             </state>
           </provider>
@@ -248,7 +248,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/js/main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="78" selection-start="527" selection-end="527" vertical-scroll-proportion="0.50364965">
+        <state line="54" column="22" selection-start="1532" selection-end="1532" vertical-scroll-proportion="0.93430656">
           <folding />
         </state>
       </provider>

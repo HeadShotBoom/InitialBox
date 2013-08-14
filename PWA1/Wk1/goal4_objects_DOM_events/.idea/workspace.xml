@@ -4,11 +4,11 @@
     <list default="true" id="d0705d97-e1f2-4c07-b588-a93f31ba8135" name="Default" comment="" />
     <ignored path="goal4_objects_DOM_events.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/main.js" changelist="d0705d97-e1f2-4c07-b588-a93f31ba8135" time="1376453910030" ignored="false" />
+    <file path="/main.js" changelist="d0705d97-e1f2-4c07-b588-a93f31ba8135" time="1376459077817" ignored="false" />
     <file path="$PROJECT_DIR$/../goal4_assign_duel3/js/main.js" changelist="d0705d97-e1f2-4c07-b588-a93f31ba8135" time="1376451230706" ignored="false" />
     <file path="$PROJECT_DIR$/../goal4_assign_duel3/index.html" changelist="d0705d97-e1f2-4c07-b588-a93f31ba8135" time="1376448511735" ignored="false" />
     <file path="/index.html" changelist="d0705d97-e1f2-4c07-b588-a93f31ba8135" time="1376448506057" ignored="false" />
-    <file path="$PROJECT_DIR$/../goal4_assign_guessing_game/js/main.js" changelist="d0705d97-e1f2-4c07-b588-a93f31ba8135" time="1376453918845" ignored="false" />
+    <file path="$PROJECT_DIR$/../goal4_assign_guessing_game/js/main.js" changelist="d0705d97-e1f2-4c07-b588-a93f31ba8135" time="1376459173960" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,7 +40,7 @@
       <file leaf-file-name="main.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/js/main.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="346" column="62" selection-start="10179" selection-end="10179" vertical-scroll-proportion="0.30955994">
+            <state line="470" column="12" selection-start="13986" selection-end="13986" vertical-scroll-proportion="0.6509863">
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
@@ -270,7 +270,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/js/main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="346" column="62" selection-start="10179" selection-end="10179" vertical-scroll-proportion="0.30955994">
+        <state line="470" column="12" selection-start="13986" selection-end="13986" vertical-scroll-proportion="0.6509863">
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
