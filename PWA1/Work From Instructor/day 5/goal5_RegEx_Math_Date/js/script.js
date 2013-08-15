@@ -438,6 +438,8 @@ STUDENT ACTIVITY
 
     console.log('------------ Math Methods -------------------');
 
+    console.log(document.getElementById('tagbox').innerHTML=Math.random());
+
 
 
 
@@ -454,6 +456,9 @@ STUDENT ACTIVITY
 
     console.log('------------ Date Methods -------------------');
 
+    console.log(new Date());
+    var d = new Date();
+    console.log(d.getFullYear());
 
 
 

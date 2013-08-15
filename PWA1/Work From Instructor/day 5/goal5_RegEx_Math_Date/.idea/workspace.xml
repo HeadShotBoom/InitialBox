@@ -5,7 +5,7 @@
     <ignored path="goal5_RegEx_Math_Date.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="$PROJECT_DIR$/../../../Wk1/goal4_assign_guessing_game/js/main.js" changelist="256ec0ce-23ef-4e57-a214-1e0be29cda19" time="1376601587061" ignored="false" />
-    <file path="/script.js" changelist="256ec0ce-23ef-4e57-a214-1e0be29cda19" time="1376608570792" ignored="false" />
+    <file path="/script.js" changelist="256ec0ce-23ef-4e57-a214-1e0be29cda19" time="1376610114717" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,7 +37,7 @@
       <file leaf-file-name="script.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/js/script.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="389" column="80" selection-start="12476" selection-end="12476" vertical-scroll-proportion="0.79910713">
+            <state line="462" column="25" selection-start="14422" selection-end="14422" vertical-scroll-proportion="0.8214286">
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
@@ -251,7 +251,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/js/script.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="389" column="80" selection-start="12476" selection-end="12476" vertical-scroll-proportion="0.79910713">
+        <state line="462" column="25" selection-start="14422" selection-end="14422" vertical-scroll-proportion="0.8214286">
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
