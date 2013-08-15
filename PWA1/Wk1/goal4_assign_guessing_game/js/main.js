@@ -38,9 +38,6 @@
 
         }
     }
-
-
-
     var playerEntryAccept = document.getElementsByTagName('button');
     playerEntryAccept[0].addEventListener('click', correct, false);
     var pressEnter = document.querySelector('#input');
@@ -49,9 +46,4 @@
                 correct();
             }
         })
-
-
-
-
-
 })();
