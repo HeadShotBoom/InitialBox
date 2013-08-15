@@ -385,7 +385,9 @@ STUDENT ACTIVITY
     console.log(clean);
 
 
-
+    var phoneRegEx = /^[2-9]\d{2}-\d{3}-\d{4}$/;
+    var phone = '407-555-1234';
+    console.log(phoneRegEx.test(phone));//Checks to see if phone number is valid
 /* 
 	// RegExp metaCharacters
 	\s	matches any whitespace character, similar to  [ ]
