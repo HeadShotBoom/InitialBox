@@ -316,7 +316,7 @@ console.log('------------ DOM Events -------------------');
 	/javascript$/  				matches “i love javascript” , but not “javascript rules”
 	/^javascript$/  			matches only “javascript” and nothing else.
 	/yea+h/  					matches “yeah”, “yeaaaah”.. but not “yeh” it would need /yea*h/
-	/yea?h/   					matches “yeah” and “yeh”.. but not “yeaaaah”
+	/yea?h/   					matches “yeah” and “yeh”.. but not “yeaaaah”                               ^[A-Z]
 	/javascript|JavaScript/   	matches “javascript” or “JavaScript”
 
 
