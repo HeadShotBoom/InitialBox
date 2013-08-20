@@ -4,7 +4,7 @@
     <list default="true" id="7571f09d-7367-4c45-8f49-3a2784b98af1" name="Default" comment="" />
     <ignored path="goal6_assign_midterm.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/main.js" changelist="7571f09d-7367-4c45-8f49-3a2784b98af1" time="1377038341528" ignored="false" />
+    <file path="/main.js" changelist="7571f09d-7367-4c45-8f49-3a2784b98af1" time="1377042008150" ignored="false" />
     <file path="/index.html" changelist="7571f09d-7367-4c45-8f49-3a2784b98af1" time="1377036146526" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -25,21 +25,22 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="45" column="17" selection-start="1189" selection-end="1189" vertical-scroll-proportion="0.5461422">
+            <state line="36" column="35" selection-start="929" selection-end="935" vertical-scroll-proportion="-9.416667">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main.js" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="main.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/js/main.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="68" column="60" selection-start="2263" selection-end="2263" vertical-scroll-proportion="0.0">
+            <state line="89" column="58" selection-start="2659" selection-end="2659" vertical-scroll-proportion="0.82589287">
               <folding>
                 <element signature="n#!!doc" expanded="true" />
+                <element signature="e#56#827#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -243,19 +244,20 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/js/main.js">
+    <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="68" column="60" selection-start="2263" selection-end="2263" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
+        <state line="36" column="35" selection-start="929" selection-end="935" vertical-scroll-proportion="-9.416667">
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
+    <entry file="file://$PROJECT_DIR$/js/main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="45" column="17" selection-start="1189" selection-end="1189" vertical-scroll-proportion="0.5461422">
-          <folding />
+        <state line="89" column="58" selection-start="2659" selection-end="2659" vertical-scroll-proportion="0.82589287">
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+            <element signature="e#56#827#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>

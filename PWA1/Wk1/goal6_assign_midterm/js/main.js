@@ -43,43 +43,66 @@ students = [
         phone:'(555)123-4567'
     }];
 
-    console.log('Name: ',students[0].name);
-    console.log('Address: ',students[0].address.address,students[0].address.city,students[0].address.state);
-    console.log('GPA: ['+students[0].gpa[0]+', '+students[0].gpa[1]+', '+students[0].gpa[2]+']');
 
-    console.log('Name: ',students[1].name);
-    console.log('Address: ',students[1].address.address,students[1].address.city,students[1].address.state);
-    console.log('GPA: ['+students[1].gpa[0]+', '+students[1].gpa[1]+', '+students[1].gpa[2]+']');
-
-    console.log('Name: ',students[2].name);
-    console.log('Address: ',students[2].address.address,students[2].address.city,students[2].address.state);
-    console.log('GPA: ['+students[2].gpa[0]+', '+students[2].gpa[1]+', '+students[2].gpa[2]+']');
 
 
     students.push(student4= { name:'Late Guy', address:{address:'666 Hell St',city:'SouthMiddle Earth',state:'NA'}, gpa:[1.0,1.1,1.2],phone:'None on file'} );
-    function calcGpa(){
-        var student1GPA=Math.round(((students[0].gpa[0]+students[0].gpa[1]+students[0].gpa[2])*10)/3)/10;
-        var student2GPA=Math.round(((students[1].gpa[0]+students[1].gpa[1]+students[1].gpa[2])*10)/3)/10;
-        var student3GPA=Math.round(((students[2].gpa[0]+students[2].gpa[1]+students[2].gpa[2])*10)/3)/10;
+    function calcGpa(p){
+        var studentGPA=Math.round(((students[p].gpa[0]+students[p].gpa[1]+students[p].gpa[2])*10)/3)/10;
+        return studentGPA;
     }
-calcGpa();
 
-    var nameHTML = document.querySelector('#name p');
-    nameHTML.innerHTML = students[0].name;
-    var addressHTML = docuement.querySelector('#address p');
+    function makeADate(){
+        var currentTime = new Date();
+        var month = currentTime.getMonth() + 1;
+        var day = currentTime.getDate();
+        var year = currentTime.getFullYear();
+        return month+'/'+day+'/'+year;
+    }
+    var date = makeADate();
+
+
+
+
+
+
+
+var count = 0;
 
 function clickButton(){
-    var playerEntryAccept = document.getElementsByTagName('a');
-    playerEntryAccept[0].addEventListener('click', 'NAME OF FUNCTION', false);        //REPLACE FUNCTION NAME WITH ONE THAT ACTIVATES THE CYCLE
+    if(count<students.length){
+
+        var nameHTML = document.querySelector('#name p');
+        nameHTML.innerHTML = 'Name: '+students[count].name;
+        var addressHTML = document.querySelector('#address p');
+        addressHTML.innerHTML = 'Address: '+students[count].address.address+' '+students[count].address.city+' '+students[count].address.state;
+        var gpaHTML = document.querySelector('#gpa p');
+        gpaHTML.innerHTML = 'GPA: '+students[count].gpa[0]+' '+students[count].gpa[1]+' '+students[count].gpa[2];
+        var dateHTML = document.querySelector('#date p');
+        dateHTML.innerHTML = 'Date: '+date;
+        var gpaAvgHTML = document.querySelector('#gpaavg p');
+        gpaAvgHTML.innerHTML = 'Average GPA '+calcGpa(count);
+        var phoneHTML = document.querySelector('#phone p');
+        phoneHTML.innerHTML = 'Phone# '+students[count].phone;
+        console.log('Name: ',students[count].name);
+        console.log('Address: ',students[count].address.address,students[count].address.city,students[count].address.state);
+        console.log('GPA: ['+students[count].gpa[0]+', '+students[count].gpa[1]+', '+students[count].gpa[2]+']');
+        count++;
+        if (count==students.length){
+            playerEntryAccept[0].removeEventListener('click', clickButton, false);
+        }
+
+
+    }
 }
-//clickButton();
+
+
+    var playerEntryAccept = document.getElementsByTagName('a');
+    playerEntryAccept[0].addEventListener('click', clickButton, false);
+
+
+
 })();
-
-
-
- console.log('Test');
-
-
 
 
 

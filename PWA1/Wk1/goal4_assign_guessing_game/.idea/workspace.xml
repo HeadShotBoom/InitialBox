@@ -4,11 +4,11 @@
     <list default="true" id="28985610-e7b0-4885-9a8a-0975abf43e31" name="Default" comment="" />
     <ignored path="goal4_assign_guessing_game.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/main.js" changelist="28985610-e7b0-4885-9a8a-0975abf43e31" time="1377038341528" ignored="false" />
+    <file path="/main.js" changelist="28985610-e7b0-4885-9a8a-0975abf43e31" time="1377042008150" ignored="false" />
     <file path="/validate.js" changelist="28985610-e7b0-4885-9a8a-0975abf43e31" time="1376623425819" ignored="false" />
     <file path="$PROJECT_DIR$/../goal5_assign_validation/js/validate.js" changelist="28985610-e7b0-4885-9a8a-0975abf43e31" time="1376623450680" ignored="false" />
     <file path="$PROJECT_DIR$/../../Work From Instructor/day 5/goal5_RegEx_Math_Date/js/script.js" changelist="28985610-e7b0-4885-9a8a-0975abf43e31" time="1376618301356" ignored="false" />
-    <file path="$PROJECT_DIR$/../goal6_assign_midterm/js/main.js" changelist="28985610-e7b0-4885-9a8a-0975abf43e31" time="1377038356032" ignored="false" />
+    <file path="$PROJECT_DIR$/../goal6_assign_midterm/js/main.js" changelist="28985610-e7b0-4885-9a8a-0975abf43e31" time="1377042153643" ignored="false" />
     <file path="/index.html" changelist="28985610-e7b0-4885-9a8a-0975abf43e31" time="1377036146526" ignored="false" />
     <file path="$PROJECT_DIR$/../goal6_assign_midterm/index.html" changelist="28985610-e7b0-4885-9a8a-0975abf43e31" time="1377036160480" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -42,7 +42,7 @@
       <file leaf-file-name="main.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/js/main.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="41" column="70" selection-start="1175" selection-end="1307" vertical-scroll-proportion="0.8978102">
+            <state line="32" column="7" selection-start="946" selection-end="1164" vertical-scroll-proportion="0.540146">
               <folding />
             </state>
           </provider>
@@ -324,7 +324,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/js/main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="41" column="70" selection-start="1175" selection-end="1307" vertical-scroll-proportion="0.8978102">
+        <state line="32" column="7" selection-start="946" selection-end="1164" vertical-scroll-proportion="0.540146">
           <folding />
         </state>
       </provider>
