@@ -5,9 +5,9 @@
     <ignored path="goal4_assign_duel3.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/index.html" changelist="6fa26aa2-62cd-4f59-8a19-5a4ca470a6de" time="1377036146526" ignored="false" />
-    <file path="/main.js" changelist="6fa26aa2-62cd-4f59-8a19-5a4ca470a6de" time="1377037672138" ignored="false" />
+    <file path="/main.js" changelist="6fa26aa2-62cd-4f59-8a19-5a4ca470a6de" time="1377038341528" ignored="false" />
     <file path="$PROJECT_DIR$/../goal4_objects_DOM_events/js/main.js" changelist="6fa26aa2-62cd-4f59-8a19-5a4ca470a6de" time="1376445229468" ignored="false" />
-    <file path="$PROJECT_DIR$/../goal6_assign_midterm/js/main.js" changelist="6fa26aa2-62cd-4f59-8a19-5a4ca470a6de" time="1377038018880" ignored="false" />
+    <file path="$PROJECT_DIR$/../goal6_assign_midterm/js/main.js" changelist="6fa26aa2-62cd-4f59-8a19-5a4ca470a6de" time="1377038356032" ignored="false" />
     <file path="$PROJECT_DIR$/../goal6_assign_midterm/index.html" changelist="6fa26aa2-62cd-4f59-8a19-5a4ca470a6de" time="1377036160480" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -28,19 +28,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="29" column="0" selection-start="481" selection-end="515" vertical-scroll-proportion="0.6580938">
+            <state line="32" column="24" selection-start="532" selection-end="532" vertical-scroll-proportion="-20.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main.js" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="main.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/js/main.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="110" selection-start="58" selection-end="168" vertical-scroll-proportion="0.0">
+            <state line="43" column="4" selection-start="1435" selection-end="1629" vertical-scroll-proportion="0.47445256">
               <folding />
             </state>
           </provider>
@@ -307,16 +307,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/main.js">
+    <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="110" selection-start="58" selection-end="168" vertical-scroll-proportion="0.0">
+        <state line="32" column="24" selection-start="532" selection-end="532" vertical-scroll-proportion="-20.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
+    <entry file="file://$PROJECT_DIR$/js/main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="0" selection-start="481" selection-end="515" vertical-scroll-proportion="0.6580938">
+        <state line="43" column="4" selection-start="1435" selection-end="1629" vertical-scroll-proportion="0.47445256">
           <folding />
         </state>
       </provider>

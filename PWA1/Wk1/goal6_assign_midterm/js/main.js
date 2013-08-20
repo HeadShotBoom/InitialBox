@@ -63,6 +63,11 @@ students = [
         var student3GPA=Math.round(((students[2].gpa[0]+students[2].gpa[1]+students[2].gpa[2])*10)/3)/10;
     }
 calcGpa();
+
+    var nameHTML = document.querySelector('#name p');
+    nameHTML.innerHTML = students[0].name;
+    var addressHTML = docuement.querySelector('#address p');
+
 function clickButton(){
     var playerEntryAccept = document.getElementsByTagName('a');
     playerEntryAccept[0].addEventListener('click', 'NAME OF FUNCTION', false);        //REPLACE FUNCTION NAME WITH ONE THAT ACTIVATES THE CYCLE
