@@ -90,6 +90,8 @@ function clickButton(){
         count++;
         if (count==students.length){
             playerEntryAccept[0].removeEventListener('click', clickButton, false);
+            var buttonHTML= document.querySelector('#info_btn a')
+            buttonHTML.innerHTML = 'DONE!!!';
         }
 
 
