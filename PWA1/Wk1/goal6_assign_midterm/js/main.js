@@ -42,7 +42,21 @@ students = [
         4.2],
         phone:'(555)123-4567'
     }];
-              //Math.round( number * 10 ) / 10;
+
+    console.log('Name: ',students[0].name);
+    console.log('Address: ',students[0].address.address,students[0].address.city,students[0].address.state);
+    console.log('GPA: ['+students[0].gpa[0]+', '+students[0].gpa[1]+', '+students[0].gpa[2]+']');
+
+    console.log('Name: ',students[1].name);
+    console.log('Address: ',students[1].address.address,students[1].address.city,students[1].address.state);
+    console.log('GPA: ['+students[1].gpa[0]+', '+students[1].gpa[1]+', '+students[1].gpa[2]+']');
+
+    console.log('Name: ',students[2].name);
+    console.log('Address: ',students[2].address.address,students[2].address.city,students[2].address.state);
+    console.log('GPA: ['+students[2].gpa[0]+', '+students[2].gpa[1]+', '+students[2].gpa[2]+']');
+
+
+    students.push(student4= { name:'Late Guy', address:{address:'666 Hell St',city:'SouthMiddle Earth',state:'NA'}, gpa:[1.0,1.1,1.2],phone:'None on file'} );
     function calcGpa(){
         var student1GPA=Math.round(((students[0].gpa[0]+students[0].gpa[1]+students[0].gpa[2])*10)/3)/10;
         var student2GPA=Math.round(((students[1].gpa[0]+students[1].gpa[1]+students[1].gpa[2])*10)/3)/10;
