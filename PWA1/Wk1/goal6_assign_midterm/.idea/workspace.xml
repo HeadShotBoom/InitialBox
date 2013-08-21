@@ -4,7 +4,7 @@
     <list default="true" id="7571f09d-7367-4c45-8f49-3a2784b98af1" name="Default" comment="" />
     <ignored path="goal6_assign_midterm.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/main.js" changelist="7571f09d-7367-4c45-8f49-3a2784b98af1" time="1377042307361" ignored="false" />
+    <file path="/main.js" changelist="7571f09d-7367-4c45-8f49-3a2784b98af1" time="1377044105896" ignored="false" />
     <file path="/index.html" changelist="7571f09d-7367-4c45-8f49-3a2784b98af1" time="1377036146526" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -37,10 +37,13 @@
       <file leaf-file-name="main.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/js/main.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="97" column="20" selection-start="2909" selection-end="2909" vertical-scroll-proportion="0.84821427">
+            <state line="147" column="21" selection-start="5314" selection-end="5314" vertical-scroll-proportion="0.9360119">
               <folding>
                 <element signature="n#!!doc" expanded="true" />
-                <element signature="e#56#827#0" expanded="false" />
+                <element signature="e#141#1089#0" expanded="false" />
+                <element signature="e#1417#1720#0" expanded="false" />
+                <element signature="e#1813#2287#0" expanded="false" />
+                <element signature="e#2606#5021#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -253,10 +256,13 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/js/main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="97" column="20" selection-start="2909" selection-end="2909" vertical-scroll-proportion="0.84821427">
+        <state line="147" column="21" selection-start="5314" selection-end="5314" vertical-scroll-proportion="0.9360119">
           <folding>
             <element signature="n#!!doc" expanded="true" />
-            <element signature="e#56#827#0" expanded="false" />
+            <element signature="e#141#1089#0" expanded="false" />
+            <element signature="e#1417#1720#0" expanded="false" />
+            <element signature="e#1813#2287#0" expanded="false" />
+            <element signature="e#2606#5021#0" expanded="false" />
           </folding>
         </state>
       </provider>
