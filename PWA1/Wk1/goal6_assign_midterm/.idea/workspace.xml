@@ -37,11 +37,9 @@
       <file leaf-file-name="main.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/js/main.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="60" column="8" selection-start="1512" selection-end="1512" vertical-scroll-proportion="0.33333334">
+            <state line="143" column="7" selection-start="5306" selection-end="5306" vertical-scroll-proportion="2.1651785">
               <folding>
                 <element signature="n#!!doc" expanded="true" />
-                <element signature="e#141#1089#0" expanded="false" />
-                <element signature="e#1809#2283#0" expanded="false" />
                 <element signature="e#2602#5017#0" expanded="false" />
               </folding>
             </state>
@@ -95,7 +93,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -130,6 +127,7 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -255,11 +253,26 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/js/main.js">
       <provider selected="true" editor-type-id="text-editor">
+        <state line="60" column="8" selection-start="1512" selection-end="1512" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+            <element signature="e#2602#5017#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/main.js">
+      <provider selected="true" editor-type-id="text-editor">
         <state line="147" column="21" selection-start="5314" selection-end="5314" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="n#!!doc" expanded="true" />
-            <element signature="e#141#1089#0" expanded="false" />
-            <element signature="e#1809#2283#0" expanded="false" />
             <element signature="e#2602#5017#0" expanded="false" />
           </folding>
         </state>
@@ -274,11 +287,9 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/js/main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="60" column="8" selection-start="1512" selection-end="1512" vertical-scroll-proportion="0.33333334">
+        <state line="143" column="7" selection-start="5306" selection-end="5306" vertical-scroll-proportion="2.1651785">
           <folding>
             <element signature="n#!!doc" expanded="true" />
-            <element signature="e#141#1089#0" expanded="false" />
-            <element signature="e#1809#2283#0" expanded="false" />
             <element signature="e#2602#5017#0" expanded="false" />
           </folding>
         </state>

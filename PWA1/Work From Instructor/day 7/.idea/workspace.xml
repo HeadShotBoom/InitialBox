@@ -4,7 +4,7 @@
     <list default="true" id="f6a4cafd-0bf7-4841-b66c-f109b811828f" name="Default" comment="" />
     <ignored path="day 7.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/main.js" changelist="f6a4cafd-0bf7-4841-b66c-f109b811828f" time="1377208158130" ignored="false" />
+    <file path="/main.js" changelist="f6a4cafd-0bf7-4841-b66c-f109b811828f" time="1377209455539" ignored="false" />
     <file path="$PROJECT_DIR$/../../Wk1/goal6_assign_midterm/js/main.js" changelist="f6a4cafd-0bf7-4841-b66c-f109b811828f" time="1377208401486" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -37,10 +37,10 @@
       <file leaf-file-name="main.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/goal7_Object_Constructor_Prototype/js/main.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="77" column="89" selection-start="3598" selection-end="3598" vertical-scroll-proportion="0.19642857">
+            <state line="92" column="105" selection-start="4395" selection-end="4395" vertical-scroll-proportion="0.53125">
               <folding>
                 <element signature="n#!!doc" expanded="true" />
-                <marker date="1377208333000" expanded="true" signature="4460:4484" placeholder="..." />
+                <marker date="1377209496000" expanded="true" signature="4500:4524" placeholder="..." />
               </folding>
             </state>
           </provider>
@@ -274,7 +274,7 @@
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="n#!!doc" expanded="true" />
-            <marker date="1377208333000" expanded="true" signature="4460:4484" placeholder="..." />
+            <marker date="1377209496000" expanded="true" signature="4500:4524" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -288,10 +288,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/goal7_Object_Constructor_Prototype/js/main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="77" column="89" selection-start="3598" selection-end="3598" vertical-scroll-proportion="0.19642857">
+        <state line="92" column="105" selection-start="4395" selection-end="4395" vertical-scroll-proportion="0.53125">
           <folding>
             <element signature="n#!!doc" expanded="true" />
-            <marker date="1377208333000" expanded="true" signature="4460:4484" placeholder="..." />
+            <marker date="1377209496000" expanded="true" signature="4500:4524" placeholder="..." />
           </folding>
         </state>
       </provider>
