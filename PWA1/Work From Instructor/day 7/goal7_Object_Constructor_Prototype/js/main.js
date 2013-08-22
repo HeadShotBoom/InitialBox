@@ -29,7 +29,7 @@
 */
 
 	// get the location of the blog button
-
+ var button = document.getElementById('blog_btn');//Target the entire button not the anchor.
 
 /************************************************************************
     Blog constructor:
@@ -68,6 +68,10 @@
  -----------------------------------------------------------------------
  */
 
+    var Blog = function(str, date){
+    this.body = str; //properties
+    this.date = date;//properties
+};
 
     // array of blog items
     // each blog item will use the Blog constructor as its template to create each
