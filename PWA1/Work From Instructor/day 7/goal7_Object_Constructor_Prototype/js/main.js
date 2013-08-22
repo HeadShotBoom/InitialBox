@@ -71,6 +71,22 @@
     var Blog = function(str, date){
     this.body = str; //properties
     this.date = date;//properties
+
+    this.toHTML = function(highlight){
+        var blogHTML = "";
+        blogHTML += highlight ? "<p style='background-color:#EEEEEE'>" : "<p>";
+
+        blogHTML += "<strong>"+ (this.date.getMonth()+1)+"/"+this.date.getDate()+"/"+
+            this.date.getFullYear()+ "<strong><br>"+ this.body+"</p>";
+
+        return blogHTML;
+    };
+
+    this.toString=function(){
+        console.log((this.date.getMonth()+1)+"/"+this.date.getDate()+"/"+
+        this.date.getFullYear()+this.body);
+    };
+
 };
 
     // array of blog items
@@ -92,16 +108,18 @@
                 blogText = "";
 
             while(i<blog.length){
-                if(i%2===0){
-                    blogText+="<p style='background-color:#EEEEEE'>";
-                }else{
-                    blogText += "<p>";
-                }
-                //blogText+= "<strong>" + blog[i].date + "</strong><br>" + blog[i].body + "</p>";
-                blogText += "<strong>" + (blog[i].date.getMonth() +1)+ "/"+
-                    blog[i].date.getDate() + "/"+
-                    blog[i].date.getFullYear()+ "<strong><br>"+
-                    blog[i].body+"</p>";
+//                if(i%2===0){
+//                    blogText+="<p style='background-color:#EEEEEE'>";
+//                }else{
+//                    blogText += "<p>";
+//                }
+//                //blogText+= "<strong>" + blog[i].date + "</strong><br>" + blog[i].body + "</p>";
+//                blogText += "<strong>" + (blog[i].date.getMonth() +1)+ "/"+
+//                    blog[i].date.getDate() + "/"+
+//                    blog[i].date.getFullYear()+ "<strong><br>"+
+//                    blog[i].body+"</p>";
+                blogText += blog[i].toHTML(i%2===0);
+                blog[i].toString();
 
                 i++;
             }
