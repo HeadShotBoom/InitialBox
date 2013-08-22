@@ -1,0 +1,16 @@
+#birds {
+    width: 60%;
+    margin: 0 auto;
+}
+
+ul, li {
+    margin:0;
+    padding:0;
+    list-style:none;
+}
+
+li {
+    float:left;
+    width: 33.33%;
+    height:2em;
+}
