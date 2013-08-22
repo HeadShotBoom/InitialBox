@@ -58,7 +58,7 @@ students = [
     //function capable of calculating the GPA of the students
     function calcGpa(p){
         //variable that uses ROUND to eliminate the excess numbers after the decimal
-        var studentGPA=Math.round(((students[p].gpa[0]+students[p].gpa[1]+students[p].gpa[2])*10)/3)/10;
+        studentGPA=Math.round(((students[p].gpa[0]+students[p].gpa[1]+students[p].gpa[2])*10)/3)/10;
         //returns a value from the function to the location it was called from
         return studentGPA;
     }
