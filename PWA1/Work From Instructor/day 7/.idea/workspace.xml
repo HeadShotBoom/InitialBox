@@ -4,7 +4,7 @@
     <list default="true" id="f6a4cafd-0bf7-4841-b66c-f109b811828f" name="Default" comment="" />
     <ignored path="day 7.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/main.js" changelist="f6a4cafd-0bf7-4841-b66c-f109b811828f" time="1377211701650" ignored="false" />
+    <file path="/main.js" changelist="f6a4cafd-0bf7-4841-b66c-f109b811828f" time="1377213116771" ignored="false" />
     <file path="$PROJECT_DIR$/../../Wk1/goal6_assign_midterm/js/main.js" changelist="f6a4cafd-0bf7-4841-b66c-f109b811828f" time="1377208401486" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -37,11 +37,11 @@
       <file leaf-file-name="main.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/goal7_Object_Constructor_Prototype/js/main.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="122" column="16" selection-start="5542" selection-end="5542" vertical-scroll-proportion="0.75446427">
+            <state line="90" column="4" selection-start="3986" selection-end="3986" vertical-scroll-proportion="0.62053573">
               <folding>
                 <element signature="n#!!doc" expanded="true" />
-                <marker date="1377211718000" expanded="true" signature="3578:3602" placeholder="..." />
-                <marker date="1377211718000" expanded="true" signature="4999:5023" placeholder="..." />
+                <marker date="1377213125000" expanded="true" signature="3588:3612" placeholder="..." />
+                <marker date="1377213125000" expanded="true" signature="5019:5043" placeholder="..." />
               </folding>
             </state>
           </provider>
@@ -150,7 +150,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../Wk1/goal6_assign_midterm" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../Wk1/goal7_assign_obj_to_prototypes" />
     <property name="FullScreen" value="false" />
   </component>
   <component name="RunManager">
@@ -275,8 +275,8 @@
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="n#!!doc" expanded="true" />
-            <marker date="1377211718000" expanded="true" signature="3578:3602" placeholder="..." />
-            <marker date="1377211718000" expanded="true" signature="4999:5023" placeholder="..." />
+            <marker date="1377213125000" expanded="true" signature="3588:3612" placeholder="..." />
+            <marker date="1377213125000" expanded="true" signature="5019:5043" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -290,11 +290,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/goal7_Object_Constructor_Prototype/js/main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="122" column="16" selection-start="5542" selection-end="5542" vertical-scroll-proportion="0.75446427">
+        <state line="90" column="4" selection-start="3986" selection-end="3986" vertical-scroll-proportion="0.62053573">
           <folding>
             <element signature="n#!!doc" expanded="true" />
-            <marker date="1377211718000" expanded="true" signature="3578:3602" placeholder="..." />
-            <marker date="1377211718000" expanded="true" signature="4999:5023" placeholder="..." />
+            <marker date="1377213125000" expanded="true" signature="3588:3612" placeholder="..." />
+            <marker date="1377213125000" expanded="true" signature="5019:5043" placeholder="..." />
           </folding>
         </state>
       </provider>

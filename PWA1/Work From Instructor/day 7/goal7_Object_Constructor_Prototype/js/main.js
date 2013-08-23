@@ -72,7 +72,7 @@
     this.body = str; //properties
     this.date = date;//properties
 
-    this.toHTML = function(highlight){
+    Blog.prototype.toHTML = function(highlight){
         var blogHTML = "";
         blogHTML += highlight ? "<p style='background-color:#EEEEEE'>" : "<p>";
 
@@ -82,7 +82,7 @@
         return blogHTML;
     };
 
-    this.toString=function(){
+    Blog.prototype.toString=function(){
         console.log((this.date.getMonth()+1)+"/"+this.date.getDate()+"/"+
         this.date.getFullYear()+this.body);
     };
