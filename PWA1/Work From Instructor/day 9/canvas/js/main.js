@@ -18,20 +18,21 @@ console.log("start canvas");
 //    }, false);
 
     //draw two lines
-//    ctx.beginPath();  //starts drawing path or resets the current path
-//    ctx.strokeStyle = "#ff0000";    //set stroke color
-//    ctx.lineWidth=2;//set stroke size
-//    ctx.moveTo(200,0);  //defines the starting point of the line
-//    ctx.lineTo(200,400);//defines the end of a line
-//    ctx.stroke();//render (draws) the line on the canvas
+
+    ctx.beginPath();  //starts drawing path or resets the current path
+    ctx.strokeStyle = "#ff0000";    //set stroke color
+    ctx.lineWidth=2;//set stroke size
+    ctx.moveTo(200,0);  //defines the starting point of the line
+    ctx.lineTo(200,400);//defines the end of a line
+    ctx.stroke();//render (draws) the line on the canvas
 
     //green line
-//    ctx.beginPath();
-//    ctx.strokeStyle = "00ff00";
-//    ctx.lineWidth = 5;
-//    ctx.moveTo(0,200);
-//    ctx.lineTo(400,200);
-//    ctx.stroke();
+    ctx.beginPath();
+    ctx.strokeStyle = "00ff00";
+    ctx.lineWidth = 5;
+    ctx.moveTo(0,200);
+    ctx.lineTo(400,200);
+    ctx.stroke();
 
     //draw a rectangle with fill and stroke
     ctx.beginPath();
@@ -40,6 +41,19 @@ console.log("start canvas");
     ctx.fill();//renders fill
     ctx.lineWidth = 3;
     ctx.strokeStyle = 'black';
+    ctx.stroke();
+
+    //draw circle with stroke
+    ctx.beginPath();
+    ctx.fillStyle = "rgb(0,0,255,255)";
+    ctx.strokeStyle = "#000000"; //default as black
+    ctx.lineWidth = 8;
+    ctx.arc(300,100,40,0,2*Math.PI);//defines the arc at x=300 y=100 radius of 40 starting angle ending angle
+    ctx.stroke();
+    ctx.fill();
+
+
+
 
 
 
