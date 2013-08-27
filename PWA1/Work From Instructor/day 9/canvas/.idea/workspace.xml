@@ -4,7 +4,7 @@
     <list default="true" id="d9194a50-cfc7-406b-ab0c-eec569e89eae" name="Default" comment="" />
     <ignored path="canvas.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/main.js" changelist="d9194a50-cfc7-406b-ab0c-eec569e89eae" time="1377639076353" ignored="false" />
+    <file path="/main.js" changelist="d9194a50-cfc7-406b-ab0c-eec569e89eae" time="1377640525547" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,7 +27,7 @@
       <file leaf-file-name="main.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/js/main.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="24" selection-start="328" selection-end="328" vertical-scroll-proportion="0.17518248">
+            <state line="42" column="4" selection-start="1587" selection-end="1587" vertical-scroll-proportion="0.9375">
               <folding />
             </state>
           </provider>
@@ -129,6 +129,13 @@
       <option name="testName" />
       <method />
     </configuration>
+    <configuration default="true" type="JavascriptDebugSession" factoryName="Local" singleton="true">
+      <JSDebuggerConfigurationSettings>
+        <option name="engineId" />
+        <option name="fileUrl" />
+      </JSDebuggerConfigurationSettings>
+      <method />
+    </configuration>
     <list size="0" />
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
@@ -225,7 +232,7 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/js/main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="24" selection-start="328" selection-end="328" vertical-scroll-proportion="0.17518248">
+        <state line="42" column="4" selection-start="1587" selection-end="1587" vertical-scroll-proportion="0.9375">
           <folding />
         </state>
       </provider>
