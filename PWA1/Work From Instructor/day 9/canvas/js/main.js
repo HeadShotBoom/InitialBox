@@ -52,9 +52,50 @@ console.log("start canvas");
     ctx.stroke();
     ctx.fill();
 
+    //draw triangle
+    ctx.beginPath();
+    ctx.strokeStyle = "orange";
+    ctx.lineWidth = 3;
+
+    //define start point of line 1 (x1,y1)
+    ctx.moveTo(300,275);
+
+    //define the end point of line 1
+    ctx.lineTo(350,325);
+
+    //define the end point of line 2
+    ctx.lineTo(250,325);
+
+    //define the endpoint of line 3 - back to where we started
+    ctx.lineTo(300,275);
+
+    //render the triangle
+    ctx.stroke();
+
+    //fill the triangle
+    ctx.fillStyle = "#ff0000";
+    ctx.fill();
+
+    //simple rect
+    ctx.fillStyle = "#aabbcc";
+    ctx.fillRect(60,75,80,50);
+    ctx.stroke();
+
+    //make another circle
+    ctx.beginPath();
+    ctx.fillStyle = "rgb(0,255,255)";
+    ctx.arc(80,300,40,0,2*Math.PI);
+    ctx.fill();
 
 
+    //text filled
+    ctx.fillStyle = "rgb(255,255,255)";
+    ctx.font= "14px Georgia";
+    ctx.fillText("Hello World",40,305)
 
+
+    //erase canvas
+    //ctx.clearRect(0,0,400,400);
 
 
 
