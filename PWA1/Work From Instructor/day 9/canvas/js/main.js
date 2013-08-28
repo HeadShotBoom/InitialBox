@@ -91,7 +91,7 @@ console.log("start canvas");
     //text filled
     ctx.fillStyle = "rgb(255,255,255)";
     ctx.font= "14px Georgia";
-    ctx.fillText("Hello World",40,305)
+    ctx.fillText("Hello World",40,305);
 
 
     //erase canvas
