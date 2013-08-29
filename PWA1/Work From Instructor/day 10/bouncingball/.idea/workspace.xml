@@ -4,12 +4,12 @@
     <list default="true" id="08262662-23d6-43ec-a7df-7ffc5c01d709" name="Default" comment="" />
     <ignored path="bouncingball.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/main.js" changelist="08262662-23d6-43ec-a7df-7ffc5c01d709" time="1377815165449" ignored="false" />
+    <file path="/main.js" changelist="08262662-23d6-43ec-a7df-7ffc5c01d709" time="1377815762520" ignored="false" />
     <file path="/day10ball.html" changelist="08262662-23d6-43ec-a7df-7ffc5c01d709" time="1372282744655" ignored="false" />
     <file path="/ball.js" changelist="08262662-23d6-43ec-a7df-7ffc5c01d709" time="1377813051448" ignored="false" />
     <file path="/utils.js" changelist="08262662-23d6-43ec-a7df-7ffc5c01d709" time="1372283364662" ignored="false" />
     <file path="$PROJECT_DIR$/../canvaspaint/js/utils.js" changelist="08262662-23d6-43ec-a7df-7ffc5c01d709" time="1372283364662" ignored="false" />
-    <file path="$PROJECT_DIR$/../canvaspaint/js/main.js" changelist="08262662-23d6-43ec-a7df-7ffc5c01d709" time="1377815165449" ignored="false" />
+    <file path="$PROJECT_DIR$/../canvaspaint/js/main.js" changelist="08262662-23d6-43ec-a7df-7ffc5c01d709" time="1377815777287" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -194,7 +194,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="22" width="1440" height="779" extended-state="0" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
