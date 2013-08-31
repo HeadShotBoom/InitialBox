@@ -6,6 +6,7 @@
     <ignored path=".idea/workspace.xml" />
     <file path="/main.js" changelist="7571f09d-7367-4c45-8f49-3a2784b98af1" time="1377044105896" ignored="false" />
     <file path="/index.html" changelist="7571f09d-7367-4c45-8f49-3a2784b98af1" time="1377036146526" ignored="false" />
+    <file path="$PROJECT_DIR$/../goal11_assign_final/js/main.js" changelist="7571f09d-7367-4c45-8f49-3a2784b98af1" time="1377990868203" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,7 +38,7 @@
       <file leaf-file-name="main.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/js/main.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="143" column="7" selection-start="5306" selection-end="5306" vertical-scroll-proportion="2.1651785">
+            <state line="58" column="3" selection-start="1397" selection-end="1716" vertical-scroll-proportion="0.23065476">
               <folding>
                 <element signature="n#!!doc" expanded="true" />
                 <element signature="e#2602#5017#0" expanded="false" />
@@ -93,6 +94,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -127,7 +129,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -253,6 +254,23 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/js/main.js">
       <provider selected="true" editor-type-id="text-editor">
+        <state line="143" column="7" selection-start="5306" selection-end="5306" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+            <element signature="e#2602#5017#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/main.js">
+      <provider selected="true" editor-type-id="text-editor">
         <state line="60" column="8" selection-start="1512" selection-end="1512" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="n#!!doc" expanded="true" />
@@ -287,7 +305,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/js/main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="143" column="7" selection-start="5306" selection-end="5306" vertical-scroll-proportion="2.1651785">
+        <state line="58" column="3" selection-start="1397" selection-end="1716" vertical-scroll-proportion="0.23065476">
           <folding>
             <element signature="n#!!doc" expanded="true" />
             <element signature="e#2602#5017#0" expanded="false" />

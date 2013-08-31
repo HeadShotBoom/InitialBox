@@ -4,9 +4,11 @@
     <list default="true" id="7571f09d-7367-4c45-8f49-3a2784b98af1" name="Default" comment="" />
     <ignored path="goal6_assign_midterm.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/main.js" changelist="7571f09d-7367-4c45-8f49-3a2784b98af1" time="1377985972208" ignored="false" />
+    <file path="/main.js" changelist="7571f09d-7367-4c45-8f49-3a2784b98af1" time="1377990573312" ignored="false" />
     <file path="/index.html" changelist="7571f09d-7367-4c45-8f49-3a2784b98af1" time="1377985346186" ignored="false" />
     <file path="/studentObjects.js" changelist="7571f09d-7367-4c45-8f49-3a2784b98af1" time="1377985831038" ignored="false" />
+    <file path="$USER_HOME$/Desktop/day 8 2/goal8_custom_library/js/main.js" changelist="7571f09d-7367-4c45-8f49-3a2784b98af1" time="1377987298649" ignored="false" />
+    <file path="$USER_HOME$/Desktop/day 8 2/goal8_custom_library/js/wizard.js" changelist="7571f09d-7367-4c45-8f49-3a2784b98af1" time="1377987330758" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,7 +40,7 @@
       <file leaf-file-name="main.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/js/main.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="51" column="3" selection-start="1417" selection-end="1417" vertical-scroll-proportion="0.6235119">
+            <state line="95" column="80" selection-start="3298" selection-end="3298" vertical-scroll-proportion="0.17518248">
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
@@ -49,7 +51,7 @@
       <file leaf-file-name="studentObjects.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/studentObjects.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="39" selection-start="353" selection-end="353" vertical-scroll-proportion="0.0">
+            <state line="20" column="11" selection-start="627" selection-end="627" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="e#0#160#0" expanded="false" />
               </folding>
@@ -313,7 +315,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/js/studentObjects.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="39" selection-start="353" selection-end="353" vertical-scroll-proportion="0.0">
+        <state line="20" column="11" selection-start="627" selection-end="627" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="e#0#160#0" expanded="false" />
           </folding>
@@ -322,7 +324,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/js/main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="51" column="3" selection-start="1417" selection-end="1417" vertical-scroll-proportion="0.6235119">
+        <state line="95" column="80" selection-start="3298" selection-end="3298" vertical-scroll-proportion="0.17518248">
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
